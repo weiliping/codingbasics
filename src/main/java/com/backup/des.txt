@@ -1,0 +1,177 @@
+|**Arrays**| 162 |寻找峰值 [Find peak element](https://leetcode-cn.com/problems/find-peak-element/)|[Java](./java/com/algorithm/arrays/FindPeakElement.java)|Medium|
+|**Arrays**| 41 |缺失的第一个正数 [First missing positive](https://leetcode-cn.com/problems/first-missing-positive/)|[Java](./java/com/algorithm/arrays/FirstMissingPositive.java)|Hard|
+|**Arrays**| 57 |插入区间 [Insert interval](https://leetcode-cn.com/problems/insert-interval/)|[Java](./java/com/algorithm/arrays/InsertInterval.java)|Medium|
+|**Arrays**| 179 |最大数 [Largest number](https://leetcode-cn.com/problems/largest-number/)|[Java](./java/com/algorithm/arrays/LargestNumber.java)|Medium|
+|**Arrays**| 11 |盛最多水的容器 [Container with most water](https://leetcode-cn.com/problems/container-with-most-water/)|[Java](./java/com/algorithm/arrays/MaxArea.java)|Medium|
+|**Arrays**| 53 |最大子序和 [Maximum subarray](https://leetcode-cn.com/problems/maximum-subarray)|[Java](./java/com/algorithm/arrays/MaximumSubarraySum.java)|...|
+|**Arrays**| 56 |合并区间 [Merge intervals](https://leetcode-cn.com/problems/merge-intervals)|[Java](./java/com/algorithm/arrays/MergeIntervals.java)|...|
+|**Arrays**| 88 |合并两个有序数组 [Merge sorted array](https://leetcode-cn.com/problems/merge-sorted-array/)|[Java](./java/com/algorithm/arrays/MergeSortedArray.java)|...|
+|**Arrays**| 209 |长度最小的子数组 [Minimum size subarray sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum)|[Java](./java/com/algorithm/arrays/MinimumSizeSubarraySum.java)|...|
+|**Arrays**| 50 |Powx-n [Powx N](https://leetcode-cn.com/problems/powx-n/)|[Java](./java/com/algorithm/arrays/MyPow.java)|...|
+|**Arrays**| 31 |下一个排列 [Next permutation](https://leetcode-cn.com/problems/next-permutation/)|[Java](./java/com/algorithm/arrays/NextPermutation.java)|...|
+|**Arrays**| 118 |杨辉三角 [Pascals triangle](https://leetcode-cn.com/problems/pascals-triangle/)|[Java](./java/com/algorithm/arrays/PascalsTriangle.java)|...|
+|**Arrays**| 119 |杨辉三角 II [Pascals triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|[Java](./java/com/algorithm/arrays/PascalsTriangleII.java)|...|
+|**Arrays**| 61 |加一 [Plus one](https://leetcode-cn.com/problems/plus-one)|[Java](./java/com/algorithm/arrays/PlusOne.java)|...|
+|**Arrays**| 27 |移除元素 [Remove element](https://leetcode-cn.com/problems/remove-element)|[Java](./java/com/algorithm/arrays/RemoveElement.java)|...|
+|**Arrays**| 189 |旋转数组 [Rotate array](https://leetcode-cn.com/problems/rotate-array/)|[Java](./java/com/algorithm/arrays/RotateArray.java)|...|
+|**Arrays**| 48 |旋转图像 [Rotate image](https://leetcode-cn.com/problems/rotate-image/)|[Java](./java/com/algorithm/arrays/RotateImage.java)|...|
+|**Arrays**| 35 |索插入位置 [Search insert position](https://leetcode-cn.com/problems/search-insert-position/)|[Java](./java/com/algorithm/arrays/SearchInsert.java)|...|
+|**Arrays**| 74 |搜索二维矩阵 [Search a 2d matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|[Java](./java/com/algorithm/arrays/SearchMatrix.java)|...|
+|**Arrays**| 73 |矩阵置零 [Set matrix zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes/)|[Java](./java/com/algorithm/arrays/SetZeroes.java)|...|
+|**Arrays**| 59 |螺旋矩阵 II [Spiral martix II](https://leetcode-cn.com/problems/spiral-matrix-ii)|[Java](./java/com/algorithm/arrays/SpiralMartixII.java)|...|
+|**Arrays**| 54 |螺旋矩阵 [Spiral martix](https://leetcode-cn.com/problems/spiral-matrix/)|[Java](./java/com/algorithm/arrays/SpiralMartixNew.java)|...|
+|**Arrays**| 16 |最接近的三数之和 [Three sum closest](https://leetcode-cn.com/problems/3sum-closest/)|[Java](./java/com/algorithm/arrays/ThreeSumClosest.java)|Medium|
+|**Arrays**| 1 |两数之和 [Two sum](https://leetcode-cn.com/problems/two-sum/)|[Java](./java/com/algorithm/arrays/TwoSum.java)|Easy|
+|**Arrays**| 611 |有效三角形的个数 [Valid triangle number](https://leetcode-cn.com/problems/valid-triangle-number/)|[Java](./java/com/algorithm/arrays/TriangleNumber.java)|...|
+|**Backtracking**| 135 |分发糖果 [Candy](https://leetcode-cn.com/problems/candy/)|[Java](./java/com/algorithm/backtracking/Candy.java)|...|
+|**Backtracking**| 55 |跳跃游戏 [Jump game](https://leetcode-cn.com/problems/jump-game/)|[Java](./java/com/algorithm/backtracking/CanJump.java)|...|
+|**Backtracking**| 133 |克隆图 [Clone graph](https://leetcode-cn.com/problems/clone-graph/)|[Java](./java/com/algorithm/backtracking/CloneGraph.java)|...|
+|**Backtracking**| 39 |组合总和 [Combination sum](https://leetcode-cn.com/problems/combination-sum)|[Java](./java/com/algorithm/backtracking/CombinationSum.java)|...|
+|**Backtracking**| 40 |组合总和 II [Combination sum II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Java](./java/com/algorithm/backtracking/CombinationSumII.java)|...|
+|**Backtracking**| 216 |组合总和 III [Combination sum III](https://leetcode-cn.com/problems/combination-sum-iii)|[Java](./java/com/algorithm/backtracking/CombinationSumIII.java)|...|
+|**Backtracking**| 77 |组合 [Combinations](https://leetcode-cn.com/problems/combinations)|[Java](./java/com/algorithm/backtracking/Combinations.java)|...|
+|**Backtracking**| 89 |格雷编码 [Gary code](https://leetcode-cn.com/problems/gray-code)|[Java](./java/com/algorithm/backtracking/GaryCode.java)|...|
+|**Backtracking**| 22 |括号生成 [Generate parenthesis](https://leetcode-cn.com/problems/generate-parentheses/)|[Java](./java/com/algorithm/backtracking/GenerateParenthesis.java)|Medium|
+|**Backtracking**| 45 |跳跃游戏 II [Jump game II](https://leetcode-cn.com/problems/jump-game-ii/)|[Java](./java/com/algorithm/backtracking/JumpGameII.java)|...|
+|**Backtracking**| 17 |电话号码的字母组合 [Letter combinations of a phone number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)|[Java](./java/com/algorithm/backtracking/LetterCombinations.java)|Medium|
+|**Backtracking**| 51 |N皇后 [NQueens](https://leetcode-cn.com/problems/n-queens/)|[Java](./java/com/algorithm/backtracking/Nqueens.java)|...|
+|**Backtracking**| 52 |N皇后 II [NQueens II](https://leetcode-cn.com/problems/n-queens-ii)|[Java](./java/com/algorithm/backtracking/NQueensII.java)|...|
+|**Backtracking**| 131 |分割回文串 [Palindrome partitioning](https://leetcode-cn.com/problems/palindrome-partitioning)|[Java](./java/com/algorithm/backtracking/PalindromePartitioning.java)|...|
+|**Backtracking**| 46 |全排列 [Permutations](https://leetcode-cn.com/problems/permutations/)|[Java](./java/com/algorithm/backtracking/Permute.java)|...|
+|**Backtracking**| 47 |全排列 II [Permutations II](https://leetcode-cn.com/problems/permutations-ii/)|[Java](./java/com/algorithm/backtracking/PermuteUnique.java)|...|
+|**Backtracking**| 78 |子集 [Subsets](https://leetcode-cn.com/problems/subsets/)|[Java](./java/com/algorithm/backtracking/Subsets.java)|...|
+|**Backtracking**| 90 |子集 II [Subsets II](https://leetcode-cn.com/problems/subsets-ii/)|[Java](./java/com/algorithm/backtracking/SubsetsII.java)|...|
+|**Backtracking**| 37 |解数独 [Sudoku solver](https://leetcode-cn.com/problems/sudoku-solver/)|[Java](./java/com/algorithm/backtracking/SudokuBacktracking.java)|...|
+|**Backtracking**| 130 |被围绕的区域 [Surrounded regions](https://leetcode-cn.com/problems/surrounded-regions)|[Java](./java/com/algorithm/backtracking/SurroundedRegions.java)|...|
+|**Backtracking**| 79 |单词搜索 [Word search](https://leetcode-cn.com/problems/word-search/)|[Java](./java/com/algorithm/backtracking/WordSearch.java)|...|
+|**Binary Search**| 4 |寻找两个正序数组的中位数 [Median of two sorted arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)|[Java](./java/com/algorithm/binarysearch/FindMedianSortedArrays.java)|Hard|
+|**Binary Search**| 33 |搜索旋转排序数组 [Search in rotated sorted array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[Java](./java/com/algorithm/binarysearch/SearchInRotatedSortedArray.java)|...|
+|**Binary Search**| 81 |搜索旋转排序数组 II [Search in rotated sorted array II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[Java](./java/com/algorithm/binarysearch/SearchInRotatedSortedArrayII.java)|...|
+|**Binary Search**| 69 |x 的平方根 [Sqrtx](https://leetcode-cn.com/problems/sqrtx/)|[Java](./java/com/algorithm/binarysearch/Sqrtx.java)|...|
+|**Binary Search**| 34 |在排序数组中查找元素的第一个和最后一个位置 [Find first and last position of element in sorted array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](./java/com/algorithm/binarysearch/SearchRange.java)|...|
+|**Binary Search**| 167 |两数之和 II - 输入有序数组 [Two sum II input array is sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](./java/com/algorithm/binarysearch/TwoSumSortedArray.java)|...|
+|**Bit Manipulation** | 201 | 数字范围按位与 [Bitwise and of numbers range](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)|[Java](./java/com/algorithm/bitmanipulation/BitwisefnumbersRange.java) |...|
+|**Bit Manipulation** | 29 | 两数相除 [Divide two integers](https://leetcode-cn.com/problems/divide-two-integers)|[Java](./java/com/algorithm/bitmanipulation/DivideIntegers.java) |...|
+|**Bit Manipulation** | 187 | 重复的DNA序列 [Repeated dna sequences](https://leetcode-cn.com/problems/repeated-dna-sequences)|[Java](./java/com/algorithm/bitmanipulation/RepeatedDnaSequences.java) |...|
+|**Bit Manipulation** | 136 | 只出现一次的数字 [Single number](https://leetcode-cn.com/problems/single-number/)|[Java](./java/com/algorithm/bitmanipulation/SingleNumber.java) |...|
+|**Bit Manipulation** | 137 | 只出现一次的数字 II [Single number II](https://leetcode-cn.com/problems/single-number-ii/)|[Java](./java/com/algorithm/bitmanipulation/SingleNumberII.java) |...|
+|**DP**| 121 | 买卖股票的最佳时机 [Best time to buy and sell stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[Java](./java/com/algorithm/dynamicprogramming/BuyAndSellStock.java) |...|
+|**DP**| 122 | 买卖股票的最佳时机II [Best time to buy and sell stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[Java](./java/com/algorithm/dynamicprogramming/BuyAndSellStockII.java) |...|
+|**DP**| 123 | 买卖股票的最佳时机III [Best time to buy and sell stock III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii)|[Java](./java/com/algorithm/dynamicprogramming/BuyAndSellStockIII.java) |...|
+|**DP**| 70 | 爬楼梯 [Climbing stair](https://leetcode-cn.com/problems/climbing-stairs/)|[Java](./java/com/algorithm/dynamicprogramming/ClimbingStair.java) |...|
+|**DP**| 322 | 零钱兑换 [Coin change](https://leetcode-cn.com/problems/coin-change/)|[Java](./java/com/algorithm/dynamicprogramming/CoinChange.java) |...|
+|**DP**| 91 | 解码方法 [Decode ways](https://leetcode-cn.com/problems/decode-ways)|[Java](./java/com/algorithm/dynamicprogramming/DecodeWays.java) |...|
+|**DP**| 115 | 不同的子序列 [Distinct Subsequences](https://leetcode-cn.com/problems/distinct-subsequences/)|[Java](./java/com/algorithm/dynamicprogramming/DistinctSubsequences.java) |...|
+|**DP**| 97 | 交错字符串 [Interleaving string](https://leetcode-cn.com/problems/interleaving-string/)|[Java](./java/com/algorithm/dynamicprogramming/InterleavingString.java) |...|
+|**DP**| 300 | 最长上升子序列 [Longest increasing subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Java](./java/com/algorithm/dynamicprogramming/LengthOfLIS.java) |...|
+|**DP**| 152 | 乘积最大子数组 [Maximum product subarray](https://leetcode-cn.com/problems/maximum-product-subarray/)|[Java](./java/com/algorithm/dynamicprogramming/MaxProduct.java) |...|
+|**DP**| 42 | 连续子数组的最大和 [Maximum sub array](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof)|[Java](./java/com/algorithm/dynamicprogramming/MaxSubArray.java) |...|
+|**DP**| 85 | 最大矩形 [Maximal rectangle](https://leetcode-cn.com/problems/maximal-rectangle/)|[Java](./java/com/algorithm/dynamicprogramming/MaximalRectangle.java) |...|
+|**DP**| 72 | 编辑距离 [Edit distance](https://leetcode-cn.com/problems/edit-distance/)|[Java](./java/com/algorithm/dynamicprogramming/MinDistance.java) |...|
+|**DP**| 64 | 最小路径和 [Minimum path sum](https://leetcode-cn.com/problems/minimum-path-sum/)|[Java](./java/com/algorithm/dynamicprogramming/MinPathSum.java) |...|
+|**DP**| 132 | 分割回文串 II [Palindrome partitioning II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)|[Java](./java/com/algorithm/dynamicprogramming/PalindromePartitioningII.java) |...|
+|**DP**| 10 | 正则表达式匹配 [Regular expression matching](https://leetcode-cn.com/problems/regular-expression-matching/)|[Java](./java/com/algorithm/dynamicprogramming/RegularExpressionMatch.java) |Hard|
+|**DP**| 120 | 三角形最小路径和 [Triangle](https://leetcode-cn.com/problems/triangle/)|[Java](./java/com/algorithm/dynamicprogramming/Triangle.java) |...|
+|**DP**| 96 | 不同的二叉搜索树 [Unique binary search trees](https://leetcode-cn.com/problems/unique-binary-search-trees)|[Java](./java/com/algorithm/dynamicprogramming/UniqueBinarySearchTrees.java) |...|
+|**DP**| 62 | 不同路径 [Unique paths](https://leetcode-cn.com/problems/unique-paths)|[Java](./java/com/algorithm/dynamicprogramming/UniquePath.java) |...|
+|**DP**| 63 | 不同路径 II [Unique paths II](https://leetcode-cn.com/problems/unique-paths-ii/)|[Java](./java/com/algorithm/dynamicprogramming/UniquePathsII.java) |...|
+|**DP**| 44 | 通配符匹配 [Wildcard matching](https://leetcode-cn.com/problems/wildcard-matching)|[Java](./java/com/algorithm/dynamicprogramming/WildcardMatching.java) |...|
+|**DP**| 139 | 单词拆分 [Word break](https://leetcode-cn.com/problems/word-break/)|[Java](./java/com/algorithm/dynamicprogramming/WordBreak.java) |...|
+|**DP**| 140 | 单词拆分 II [Word break II](https://leetcode-cn.com/problems/word-break-ii/)|[Java](./java/com/algorithm/dynamicprogramming/WordBreakII.java) |...|
+|**Graph** | 127 | 单词接龙 [Word ladder](https://leetcode-cn.com/problems/word-ladder/)|[Java](./java/com/algorithm/graphdata/WordLadder.java) |...|
+|**Graph** | 126 | 单词接龙 II [Word ladder II](https://leetcode-cn.com/problems/word-ladder-ii)|[Java](./java/com/algorithm/graphdata/WordLadderII.java) |...|
+|**Greedy Algorithm** | 134 | 加油站 [Gas station](https://leetcode-cn.com/problems/gas-station/)|[Java](./java/com/algorithm/greedyalgorithm/GasStation.java) |...|
+|**Greedy Algorithm** | 169 | 多数元素 [Majority element](https://leetcode-cn.com/problems/majority-element)|[Java](./java/com/algorithm/greedyalgorithm/MajorityElement.java) |...|
+|**Hashing** | 49 | 字母异位词分组 [Group anagrams](https://leetcode-cn.com/problems/group-anagrams/)|[Java](./java/com/algorithm/hashing/Anagrams.java) |...|
+|**Hashing** | 166 | 分数到小数 [Fraction to recurring decimal](https://leetcode-cn.com/problems/fraction-to-recurring-decimal)|[Java](./java/com/algorithm/hashing/FractionToDecimal.java) |...|
+|**Hashing** | 138 | 复制带随机指针的链表 [Copy list with random pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)|[Java](./java/com/algorithm/hashing/CopyRandomList.java) |...|
+|**Hashing** | 36 | 有效的数独 [Valid sudoku](https://leetcode-cn.com/problems/valid-sudoku)|[Java](./java/com/algorithm/hashing/ValidSudoku.java) |...|
+|**Heaps & Maps** | 146 | LRU缓存机制 [LRU cache](https://leetcode-cn.com/problems/lru-cache/)|[Java](./java/com/algorithm/heapsandmaps/LRUCache.java) |...|
+|**Linked Lists** | 2 | 两数相加 [Add two numbers](https://leetcode-cn.com/problems/add-two-numbers/)|[Java](./java/com/algorithm/linkedlists/AddTwoNumbers.java) |Medium|
+|**Linked Lists** | 141 | 环形链表 [Linked list cycle](https://leetcode-cn.com/problems/linked-list-cycle)|[Java](./java/com/algorithm/linkedlists/CycleList.java) |...|
+|**Linked Lists** | 142 | 环形链表 II [Linked list cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii)|[Java](./java/com/algorithm/linkedlists/DetectCycle.java) |...|
+|**Linked Lists** | 147 | 对链表进行插入排序 [Insertion sort list](https://leetcode-cn.com/problems/insertion-sort-list/)|[Java](./java/com/algorithm/linkedlists/InsertionSortList.java) |...|
+|**Linked Lists** | 160 | 相交链表 [Intersection of two linked lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists)|[Java](./java/com/algorithm/linkedlists/IntersectionNote.java) |...|
+|**Linked Lists** | 21 | 合并两个有序链表 [Merge two sorted lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Java](./java/com/algorithm/linkedlists/MergeSortedLists.java) |Easy|
+|**Linked Lists** | 23 | 合并K个排序链表 [Merge k sorted lists](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Java](./java/com/algorithm/linkedlists/MergeKSortedLists.java) |Hard|
+|**Linked Lists** | 234 | 回文链表 [Palindrome linked list](https://leetcode-cn.com/problems/palindrome-linked-list)|[Java](./java/com/algorithm/linkedlists/PalindromeList.java) |...|
+|**Linked Lists** | 86 | 分隔链表 [Partition list](https://leetcode-cn.com/problems/partition-list/)|[Java](./java/com/algorithm/linkedlists/PartitionList.java) |...|
+|**Linked Lists** | 83 | 删除排序链表中的重复元素 [Remove duplicates from sorted list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|[Java](./java/com/algorithm/linkedlists/RemoveDuplicatesFromSortedList.java) |...|
+|**Linked Lists** | 82 | 删除排序链表中的重复元素 II [Remove duplicates from sorted list II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii)|[Java](./java/com/algorithm/linkedlists/RemoveDuplicatesFromSortedListII.java) |...|
+|**Linked Lists** | 19 | 删除链表的倒数第N个节点 [Remove nth node from end of list](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)|[Java](./java/com/algorithm/linkedlists/RemoveNthFromEnd.java) |Medium|
+|**Linked Lists** | 143 | 重排链表 [Reorder list](https://leetcode-cn.com/problems/reorder-list)|[Java](./java/com/algorithm/linkedlists/ReorderList.java) |...|
+|**Linked Lists** | 25 | K个一组翻转链表 [Reverse nodes in k group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|[Java](./java/com/algorithm/linkedlists/ReverseKGroup.java) |Hard|
+|**Linked Lists** | 206 | 反转链表 [Reverse linked list](https://leetcode-cn.com/problems/reverse-linked-list)|[Java](./java/com/algorithm/linkedlists/ReverseList.java) |...|
+|**Linked Lists** | 92 | 反转链表 II [Reverse linked list II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|[Java](./java/com/algorithm/linkedlists/ReverseListII.java) |...|
+|**Linked Lists** | 61 | 旋转链表 [Rotate list](https://leetcode-cn.com/problems/rotate-list)|[Java](./java/com/algorithm/linkedlists/RotateList.java) |...|
+|**Linked Lists** | 148 | 排序链表 [Sort list](https://leetcode-cn.com/problems/sort-list/)|[Java](./java/com/algorithm/linkedlists/SortList.java) |...|
+|**Linked Lists** | 24 | 两两交换链表中的节点 [Swap nodes in pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|[Java](./java/com/algorithm/linkedlists/SwapPairs.java) |Medium|
+|**Math** | 8 | 字符串转换整数 [String to integer atoi](https://leetcode-cn.com/problems/string-to-integer-atoi)|[Java](./java/com/algorithm/math/Atoi.java) |Medium|
+|**Math** | 168 | Excel表列名称 [Excel sheet column title](https://leetcode-cn.com/problems/excel-sheet-column-title/)|[Java](./java/com/algorithm/math/ExcelSheetColumnTitle.java) |...|
+|**Math** | 171 | Excel表列序号 [Excel sheet column number](https://leetcode-cn.com/problems/excel-sheet-column-number/)|[Java](./java/com/algorithm/math/ExcelSheetColumnNumber.java) |...|
+|**Math** | 60 | 第k个排列 [Permutation sequence](https://leetcode-cn.com/problems/permutation-sequence/)|[Java](./java/com/algorithm/math/GetPermutation.java) |...|
+|**Math** | 172 | 阶乘后的零 [Factorial trailing zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[Java](./java/com/algorithm/math/TrailingZeroes.java) |...|
+|**Math** | 202 | 快乐数 [Happy number](https://leetcode-cn.com/problems/happy-number/)|[Java](./java/com/algorithm/math/HappyNumber.java) |...|
+|**Math** | 9 | 回文数 [Palindrome number](https://leetcode-cn.com/problems/palindrome-number/)|[Java](./java/com/algorithm/math/Palindrome.java) |Easy|
+|**Math** | 149 | 直线上最多的点数 [Max points on a line](https://leetcode-cn.com/problems/max-points-on-a-line/)|[Java](./java/com/algorithm/math/MaxPointsOnLine.java) |...|
+|**Math** | 7 | 整数反转 [Reverse integer](https://leetcode-cn.com/problems/reverse-integer/)|[Java](./java/com/algorithm/math/ReverseInteger.java) |Easy|
+|**Stacks & Queues** | 150 | 逆波兰表达式求值 [Evaluate reverse polish notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)|[Java](./java/com/algorithm/stacksandqueues/EvaluateReversePolishNotation.java) |...|
+|**Stacks & Queues** | 84 | 柱状图中最大的矩形 [Largest rectangle in histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)|[Java](./java/com/algorithm/stacksandqueues/LargestRectangleArea.java) |...|
+|**Stacks & Queues** | 155 | 最小栈 [Min stack](https://leetcode-cn.com/problems/min-stack/)|[Java](./java/com/algorithm/stacksandqueues/MinStack.java) |...|
+|**Stacks & Queues** | 71 | 简化路径 [Simplify path](https://leetcode-cn.com/problems/simplify-path/)|[Java](./java/com/algorithm/stacksandqueues/SimplifyDirectoryPath.java) |...|
+|**Stacks & Queues** | 42 | 接雨水 [Trapping rain water](https://leetcode-cn.com/problems/trapping-rain-water)|[Java](./java/com/algorithm/stacksandqueues/Trap.java) |...|
+|**Strings** | 67 | 二进制求和 [Add binary](https://leetcode-cn.com/problems/add-binary)|[Java](./java/com/algorithm/strings/AddBinary.java) |...|
+|**Strings** | 162 | 比较版本号 [Compare version numbers](https://leetcode-cn.com/problems/compare-version-numbers)|[Java](./java/com/algorithm/strings/CompareVersionNumbers.java) |...|
+|**Strings** | 38 | 外观数列 [Count and say](https://leetcode-cn.com/problems/count-and-say)|[Java](./java/com/algorithm/strings/CountAndSay.java) |...|
+|**Strings** | 68 | 文本左右对齐 [Text justification](https://leetcode-cn.com/problems/text-justification/)|[Java](./java/com/algorithm/strings/FullJustify.java) |...|
+|**Strings** | 12 | 整数转罗马数字 [Integer to roman](https://leetcode-cn.com/problems/integer-to-roman)|[Java](./java/com/algorithm/strings/IntToRoman.java) |Medium|
+|**Strings** | 87 | 扰乱字符串 [Scramble string](https://leetcode-cn.com/problems/scramble-string/)|[Java](./java/com/algorithm/strings/IsScramble.java) |...|
+|**Strings** | 58 | 最后一个单词的长度 [Length of last word](https://leetcode-cn.com/problems/length-of-last-word)|[Java](./java/com/algorithm/strings/LengthOfLastWord.java) |...|
+|**Strings** | 3 | 无重复字符的最长子串 [Longest substring without repeating characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Java](./java/com/algorithm/strings/LengthOfLongestSubstring.java) |Medium|
+|**Strings** | 14 | 最长公共前缀 [Longest common prefix](https://leetcode-cn.com/problems/longest-common-prefix)|[Java](./java/com/algorithm/strings/LongestCommonPrefix.java) |Easy|
+|**Strings** | 5 | 最长回文子串 [Longest palindromic substring](https://leetcode-cn.com/problems/longest-palindromic-substring/)|[Java](./java/com/algorithm/strings/LongestPalindromicSubstring.java) |Medium|
+|**Strings** | 32 | 最长有效括号 [Longest valid parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/)|[Java](./java/com/algorithm/strings/LongestParenttheses.java) |...|
+|**Strings** | 76 | 最小覆盖子串 [Minimum window substring](https://leetcode-cn.com/problems/minimum-window-substring/)|[Java](./java/com/algorithm/strings/MinWindow.java) |...|
+|**Strings** | 43 | 字符串相乘 [Multiply strings](https://leetcode-cn.com/problems/multiply-strings)|[Java](./java/com/algorithm/strings/MultiplyStrings.java) |...|
+|**Strings** | 93 | 复原IP地址 [Restore IP addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Java](./java/com/algorithm/strings/RestoreIpAddresses.java) |...|
+|**Strings** | 344 | 反转字符串 [Reverse string](https://leetcode-cn.com/problems/reverse-string)|[Java](./java/com/algorithm/strings/ReverseString.java) |...|
+|**Strings** | 151 | 翻转字符串里的单词 [Reverse words in a string](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|[Java](./java/com/algorithm/strings/ReverseWords.java) |...|
+|**Strings** | 13 | 罗马数字转整数 [Roman to integer](https://leetcode-cn.com/problems/roman-to-integer/)|[Java](./java/com/algorithm/strings/RomanToInt.java) |Easy|
+|**Strings** | 214 | 最短回文串 [Shortest palindrome](https://leetcode-cn.com/problems/shortest-palindrome)|[Java](./java/com/algorithm/strings/ShortestPalindrome.java) |...|
+|**Strings** | 28 | 实现 strStr() [Implement strstr](https://leetcode-cn.com/problems/implement-strstr/)|[Java](./java/com/algorithm/strings/StrStr.java) |...|
+|**Strings** | 30 | 串联所有单词的子串 [Substring with concatenation of all words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)|[Java](./java/com/algorithm/strings/SubstringWithAllWordsConcatenation.java) |...|
+|**Strings** | 125 | 验证回文串 [Valid palindrome](https://leetcode-cn.com/problems/valid-palindrome/)|[Java](./java/com/algorithm/strings/ValidPalindrome.java) |...|
+|**Strings** | 65 | 有效数字 [Valid number](https://leetcode-cn.com/problems/valid-number)|[Java](./java/com/algorithm/strings/ValidNumber.java) |...|
+|**Strings** | 20 | 有效的括号 [Valid parentheses](https://leetcode-cn.com/problems/valid-parentheses/)|[Java](./java/com/algorithm/strings/ValidParentheses.java) |Easy|
+|**Strings** | 6 | Z字形变换 [Zigzag conversion](https://leetcode-cn.com/problems/zigzag-conversion/)|[Java](./java/com/algorithm/strings/ZigzagConversion.java) |Medium|
+|**Tree** | 110 | 平衡二叉树 [Balanced binary tree](https://leetcode-cn.com/problems/balanced-binary-tree)|[Java](./java/com/algorithm/treedatastructure/BalancedBinaryTree.java) |...|
+|**Tree** | 173 | 二叉搜索树迭代器 [Binary search tree iterator](https://leetcode-cn.com/problems/binary-search-tree-iterator)|[Java](./java/com/algorithm/treedatastructure/BSTIterator.java) |...|
+|**Tree** | 106 | 从中序与后序遍历序列构造二叉树 [Construct binary tree from inorder and postorder traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Java](./java/com/algorithm/treedatastructure/BuildTreePostOrder.java) |...|
+|**Tree** | 105 | 从前序与中序遍历序列构造二叉树 [Construct binary tree from preorder and inorder traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Java](./java/com/algorithm/treedatastructure/BuildTreePreOrder.java) |...|
+|**Tree** | 108 | 将有序数组转换为二叉搜索树 [Convert sorted array to binary search tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree)|[Java](./java/com/algorithm/treedatastructure/ConvertArrayToBinaryTree.java) |...|
+|**Tree** | 109 | 有序链表转换二叉搜索树 [Convert sorted list to binary search tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree)|[Java](./java/com/algorithm/treedatastructure/ConvertLinkedListToBinaryTree.java) |...|
+|**Tree** | 114 | 二叉树展开为链表 [Flatten binary tree to linked list](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)|[Java](./java/com/algorithm/treedatastructure/Flatten.java) |...|
+|**Tree** | 94 | 二叉树的中序遍历 [Binary tree inorder traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)|[Java](./java/com/algorithm/treedatastructure/InorderTraversal.java) |...|
+|**Tree** | 236 | 二叉树的最近公共祖先 [Lowest common ancestor of a binary tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](./java/com/algorithm/treedatastructure/LowestCommonAncestor.java) |...|
+|**Tree** | 102 | 二叉树的层序遍历 [Binary tree level order traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[Java](./java/com/algorithm/treedatastructure/LevelOrderTraversal.java) |...|
+|**Tree** | 107 | 二叉树的层序遍历 II [Binary tree level order traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|[Java](./java/com/algorithm/treedatastructure/LevelOrderTraversalII.java) |...|
+|**Tree** | 104 | 二叉树的最大深度 [Maximum depth of binary tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[Java](./java/com/algorithm/treedatastructure/MaxDepth.java) |...|
+|**Tree** | 116 | 填充每个节点的下一个右侧节点指针 [Populating next right pointers in each node](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node)|[Java](./java/com/algorithm/treedatastructure/NodeConnect.java) |...|
+|**Tree** | 117 | 填充每个节点的下一个右侧节点指针 II [Populating next right pointers in each node](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii)|[Java](./java/com/algorithm/treedatastructure/NodeConnectII.java) |...|
+|**Tree** | 112 | 路径总和 [Path sum](https://leetcode-cn.com/problems/path-sum/)|[Java](./java/com/algorithm/treedatastructure/PathSum.java) |...|
+|**Tree** | 145 | 二叉树的后序遍历 [Binary tree postorder traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)|[Java](./java/com/algorithm/treedatastructure/PostorderTraversal.java) |...|
+|**Tree** | 144 | 二叉树的前序遍历 [Binary tree preorder traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|[Java](./java/com/algorithm/treedatastructure/PreorderTraversal.java) |...|
+|**Tree** | 99 | 恢复二叉搜索树 [Recover binary search tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)|[Java](./java/com/algorithm/treedatastructure/RecoverBinarySearchTree.java) |...|
+|**Tree** | 113 | 路径总和 II [Path sum II](https://leetcode-cn.com/problems/path-sum-ii/)|[Java](./java/com/algorithm/treedatastructure/RootToLeafPathsSum.java) |...|
+|**Tree** | 100 | 相同的树 [Same tree](https://leetcode-cn.com/problems/same-tree)|[Java](./java/com/algorithm/treedatastructure/SameTree.java) |...|
+|**Tree** | 129 | 求根到叶子节点数字之和 [Sum root to leaf numbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)|[Java](./java/com/algorithm/treedatastructure/SumRootToLeafNumbers.java) |...|
+|**Tree** | 101 | 对称二叉树 [Symmetric tree](https://leetcode-cn.com/problems/symmetric-tree/)|[Java](./java/com/algorithm/treedatastructure/SymmetricTree.java) |...|
+|**Tree** | 124 | 二叉树中的最大路径和 [Binary tree maximum path sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)|[Java](./java/com/algorithm/treedatastructure/TreeMaxPathSum.java) |...|
+|**Tree** | 95 | 不同的二叉搜索树 II [Unique binary search trees II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)|[Java](./java/com/algorithm/treedatastructure/UniqueBinarySearchTreesII.java) |...|
+|**Tree** | 103 | 二叉树的锯齿形层次遍历 [Binary tree zigzag level order traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)|[Java](./java/com/algorithm/treedatastructure/ZigzagLevelOrder.java) |...|
+|**Two Pointers** | 18 | 四数之和 [Four sum](https://leetcode-cn.com/problems/4sum/)|[Java](./java/com/algorithm/twopointers/FourSum.java) |Medium|
+|**Two Pointers** | 1200 | 最小绝对差 [Minimum absolute difference](https://leetcode-cn.com/problems/minimum-absolute-difference)|[Java](./java/com/algorithm/twopointers/MinimumAbsDifference.java) |...|
+|**Two Pointers** | 26 | 删除排序数组中的重复项 [Remove duplicates from sorted array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|[Java](./java/com/algorithm/twopointers/RemoveDuplicated.java) |...|
+|**Two Pointers** | 80 | 删除排序数组中的重复项 II [Remove duplicates from sorted array II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java](./java/com/algorithm/twopointers/RemoveDuplicatedII.java) |...|
+|**Two Pointers** | 75 | 颜色分类 [Sort colors](https://leetcode-cn.com/problems/sort-colors/)|[Java](./java/com/algorithm/twopointers/SortColors.java) |...|
+|**Two Pointers** | 15 | 三数之和 [Three sum](https://leetcode-cn.com/problems/3sum/)|[Java](./java/com/algorithm/twopointers/ThreeSum.java) |Medium|

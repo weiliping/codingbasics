@@ -1,0 +1,118 @@
+
+# Graph
+ | 127 | 单词接龙 [Word ladder](./java/com/algorithm/graphdata/WordLadder.java)|[java](./java/com/algorithm/graphdata/WordLadder.java) |...|
+ | 126 | 单词接龙 II [Word ladder II](./java/com/algorithm/graphdata/WordLadderII.java)|[java](./java/com/algorithm/graphdata/WordLadderII.java) |...|
+
+# Greedy Algorithm
+ | 134 | 加油站 [Gas station](./java/com/algorithm/greedyalgorithm/GasStation.java)|[java](./java/com/algorithm/greedyalgorithm/GasStation.java) |...|
+ | 169 | 多数元素 [Majority element](./java/com/algorithm/greedyalgorithm/MajorityElement.java)|[java](./java/com/algorithm/greedyalgorithm/MajorityElement.java) |...|
+
+# Hashing
+ | 49 | 字母异位词分组 [Group anagrams](./java/com/algorithm/hashing/Anagrams.java)|[java](./java/com/algorithm/hashing/Anagrams.java) |...|
+ | 166 | 分数到小数 [Fraction to recurring decimal](./java/com/algorithm/hashing/FractionToDecimal.java)|[java](./java/com/algorithm/hashing/FractionToDecimal.java) |...|
+ | 138 | 复制带随机指针的链表 [Copy list with random pointer](./java/com/algorithm/hashing/CopyRandomList.java)|[java](./java/com/algorithm/hashing/CopyRandomList.java) |...|
+ | 36 | 有效的数独 [Valid sudoku](./java/com/algorithm/hashing/ValidSudoku.java)|[java](./java/com/algorithm/hashing/ValidSudoku.java) |...|
+
+# Heaps And Maps
+ | 146 | LRU缓存机制 [LRU cache](./java/com/algorithm/heapsandmaps/LRUCache.java)|[java](./java/com/algorithm/heapsandmaps/LRUCache.java) |...|
+
+# Linked Lists
+ | 2 | 两数相加 [Add two numbers](./java/com/algorithm/linkedlists/AddTwoNumbers.java)|[java](./java/com/algorithm/linkedlists/AddTwoNumbers.java) |...|
+ | 141 | 环形链表 [Linked list cycle](./java/com/algorithm/linkedlists/CycleList.java)|[java](./java/com/algorithm/linkedlists/CycleList.java) |...|
+ | 142 | 环形链表 II [Linked list cycle II](./java/com/algorithm/linkedlists/DetectCycle.java)|[java](./java/com/algorithm/linkedlists/DetectCycle.java) |...|
+ | 147 | 对链表进行插入排序 [Insertion sort list](./java/com/algorithm/linkedlists/InsertionSortList.java)|[java](./java/com/algorithm/linkedlists/InsertionSortList.java) |...|
+ | 160 | 相交链表 [Intersection of two linked lists](./java/com/algorithm/linkedlists/IntersectionNote.java)|[java](./java/com/algorithm/linkedlists/IntersectionNote.java) |...|
+ | 21 | 合并两个有序链表 [Merge two sorted lists](./java/com/algorithm/linkedlists/MergeSortedLists.java)|[java](./java/com/algorithm/linkedlists/MergeSortedLists.java) |...|
+ | 23 | 合并K个排序链表 [Merge k sorted lists](./java/com/algorithm/linkedlists/MergeKSortedLists.java)|[java](./java/com/algorithm/linkedlists/MergeKSortedLists.java) |...|
+ | 234 | 回文链表 [Palindrome linked list](./java/com/algorithm/linkedlists/PalindromeList.java)|[java](./java/com/algorithm/linkedlists/PalindromeList.java) |...|
+ | 86 | 分隔链表 [Partition list](./java/com/algorithm/linkedlists/PartitionList.java)|[java](./java/com/algorithm/linkedlists/PartitionList.java) |...|
+ | 83 | 删除排序链表中的重复元素 [Remove duplicates from sorted list](./java/com/algorithm/linkedlists/RemoveDuplicatesFromSortedList.java)|[java](./java/com/algorithm/linkedlists/RemoveDuplicatesFromSortedList.java) |...|
+ | 82 | 删除排序链表中的重复元素 II [Remove duplicates from sorted list II](./java/com/algorithm/linkedlists/RemoveDuplicatesFromSortedListII.java)|[java](./java/com/algorithm/linkedlists/RemoveDuplicatesFromSortedListII.java) |...|
+ | 19 | 删除链表的倒数第N个节点 [Remove nth node from end of list](./java/com/algorithm/linkedlists/RemoveNthFromEnd.java)|[java](./java/com/algorithm/linkedlists/RemoveNthFromEnd.java) |...|
+ | 143 | 重排链表 [Reorder list](./java/com/algorithm/linkedlists/ReorderList.java)|[java](./java/com/algorithm/linkedlists/ReorderList.java) |...|
+ | 25 | K个一组翻转链表 [Reverse nodes in k group](./java/com/algorithm/linkedlists/ReverseKGroup.java)|[java](./java/com/algorithm/linkedlists/ReverseKGroup.java) |...|
+ | 206 | 反转链表 [Reverse linked list](./java/com/algorithm/linkedlists/ReverseList.java)|[java](./java/com/algorithm/linkedlists/ReverseList.java) |...|
+ | 92 | 反转链表 II [Reverse linked list II](./java/com/algorithm/linkedlists/ReverseListII.java)|[java](./java/com/algorithm/linkedlists/ReverseListII.java) |...|
+ | 61 | 旋转链表 [Rotate list](./java/com/algorithm/linkedlists/RotateList.java)|[java](./java/com/algorithm/linkedlists/RotateList.java) |...|
+ | 148 | 排序链表 [Sort list](./java/com/algorithm/linkedlists/SortList.java)|[java](./java/com/algorithm/linkedlists/SortList.java) |...|
+ | 24 | 两两交换链表中的节点 [Swap nodes in pairs](./java/com/algorithm/linkedlists/SwapPairs.java)|[java](./java/com/algorithm/linkedlists/SwapPairs.java) |...|
+
+# Math
+ | 8 | 字符串转换整数 [String to integer atoi](./java/com/algorithm/math/Atoi.java)|[java](./java/com/algorithm/math/Atoi.java) |...|
+ | 168 | Excel表列名称 [Excel sheet column title](./java/com/algorithm/math/ExcelSheetColumnTitle.java)|[java](./java/com/algorithm/math/ExcelSheetColumnTitle.java) |...|
+ | 171 | Excel表列序号 [Excel sheet column number](./java/com/algorithm/math/ExcelSheetColumnNumber.java)|[java](./java/com/algorithm/math/ExcelSheetColumnNumber.java) |...|
+ | 60 | 第k个排列 [Permutation sequence](./java/com/algorithm/math/GetPermutation.java)|[java](./java/com/algorithm/math/GetPermutation.java) |...|
+ | 172 | 阶乘后的零 [Factorial trailing zeroes](./java/com/algorithm/math/TrailingZeroes.java)|[java](./java/com/algorithm/math/TrailingZeroes.java) |...|
+ | 202 | 快乐数 [Happy number](./java/com/algorithm/math/HappyNumber.java)|[java](./java/com/algorithm/math/HappyNumber.java) |...|
+ | 9 | 回文数 [Palindrome number](./java/com/algorithm/math/Palindrome.java)|[java](./java/com/algorithm/math/Palindrome.java) |...|
+ | 149 | 直线上最多的点数 [Max points on a line](./java/com/algorithm/math/MaxPointsOnLine.java)|[java](./java/com/algorithm/math/MaxPointsOnLine.java) |...|
+ | 7 | 整数反转 [Reverse integer](./java/com/algorithm/math/ReverseInteger.java)|[java](./java/com/algorithm/math/ReverseInteger.java) |...|
+
+# Stacks And Queues
+ | 150 | 逆波兰表达式求值 [Evaluate reverse polish notation](./java/com/algorithm/stacksandqueues/EvaluateReversePolishNotation.java)|[java](./java/com/algorithm/stacksandqueues/EvaluateReversePolishNotation.java) |...|
+ | 84 | 柱状图中最大的矩形 [Largest rectangle in histogram](./java/com/algorithm/stacksandqueues/LargestRectangleArea.java)|[java](./java/com/algorithm/stacksandqueues/LargestRectangleArea.java) |...|
+ | 155 | 最小栈 [Min stack](./java/com/algorithm/stacksandqueues/MinStack.java)|[java](./java/com/algorithm/stacksandqueues/MinStack.java) |...|
+ | 71 | 简化路径 [Simplify path](./java/com/algorithm/stacksandqueues/SimplifyDirectoryPath.java)|[java](./java/com/algorithm/stacksandqueues/SimplifyDirectoryPath.java) |...|
+ | 42 | 接雨水 [Trapping rain water](./java/com/algorithm/stacksandqueues/Trap.java)|[java](./java/com/algorithm/stacksandqueues/Trap.java) |...|
+
+# Strings
+ | 67 | 二进制求和 [Add binary](./java/com/algorithm/strings/AddBinary.java)|[java](./java/com/algorithm/strings/AddBinary.java) |...|
+ | 162 | 比较版本号 [Compare version numbers](./java/com/algorithm/strings/CompareVersionNumbers.java)|[java](./java/com/algorithm/strings/CompareVersionNumbers.java) |...|
+ | 38 | 外观数列 [Count and say](./java/com/algorithm/strings/CountAndSay.java)|[java](./java/com/algorithm/strings/CountAndSay.java) |...|
+ | 68 | 文本左右对齐 [Text justification](./java/com/algorithm/strings/FullJustify.java)|[java](./java/com/algorithm/strings/FullJustify.java) |...|
+ | 12 | 整数转罗马数字 [Integer to roman](./java/com/algorithm/strings/IntToRoman.java)|[java](./java/com/algorithm/strings/IntToRoman.java) |...|
+ | 87 | 扰乱字符串 [Scramble string](./java/com/algorithm/strings/IsScramble.java)|[java](./java/com/algorithm/strings/IsScramble.java) |...|
+ | 58 | 最后一个单词的长度 [Length of last word](./java/com/algorithm/strings/LengthOfLastWord.java)|[java](./java/com/algorithm/strings/LengthOfLastWord.java) |...|
+ | 3 | 无重复字符的最长子串 [Longest substring without repeating characters](./java/com/algorithm/strings/LengthOfLongestSubstring.java)|[java](./java/com/algorithm/strings/LengthOfLongestSubstring.java) |...|
+ | 14 | 最长公共前缀 [Longest common prefix](./java/com/algorithm/strings/LongestCommonPrefix.java)|[java](./java/com/algorithm/strings/LongestCommonPrefix.java) |...|
+ | 5 | 最长回文子串 [Longest palindromic substring](./java/com/algorithm/strings/LongestPalindromicSubstring.java)|[java](./java/com/algorithm/strings/LongestPalindromicSubstring.java) |...|
+ | 32 | 最长有效括号 [Longest valid parentheses](./java/com/algorithm/strings/LongestParenttheses.java)|[java](./java/com/algorithm/strings/LongestParenttheses.java) |...|
+ | 76 | 最小覆盖子串 [Minimum window substring](./java/com/algorithm/strings/MinWindow.java)|[java](./java/com/algorithm/strings/MinWindow.java) |...|
+ | 43 | 字符串相乘 [Multiply strings](./java/com/algorithm/strings/MultiplyStrings.java)|[java](./java/com/algorithm/strings/MultiplyStrings.java) |...|
+ | 93 | 复原IP地址 [Restore IP addresses](./java/com/algorithm/strings/RestoreIpAddresses.java)|[java](./java/com/algorithm/strings/RestoreIpAddresses.java) |...|
+ | 344 | 反转字符串 [Reverse string](./java/com/algorithm/strings/ReverseString.java)|[java](./java/com/algorithm/strings/ReverseString.java) |...|
+ | 151 | 翻转字符串里的单词 [Reverse words in a string](./java/com/algorithm/strings/ReverseWords.java)|[java](./java/com/algorithm/strings/ReverseWords.java) |...|
+ | 13 | 罗马数字转整数 [Roman to integer](./java/com/algorithm/strings/RomanToInt.java)|[java](./java/com/algorithm/strings/RomanToInt.java) |...|
+ | 214 | 最短回文串 [Shortest palindrome](./java/com/algorithm/strings/ShortestPalindrome.java)|[java](./java/com/algorithm/strings/ShortestPalindrome.java) |...|
+ | 28 | 实现 strStr() [Implement strstr](./java/com/algorithm/strings/StrStr.java)|[java](./java/com/algorithm/strings/StrStr.java) |...|
+ | 30 | 串联所有单词的子串 [Substring with concatenation of all words](./java/com/algorithm/strings/SubstringWithAllWordsConcatenation.java)|[java](./java/com/algorithm/strings/SubstringWithAllWordsConcatenation.java) |...|
+ | 125 | 验证回文串 [Valid palindrome](./java/com/algorithm/strings/ValidPalindrome.java)|[java](./java/com/algorithm/strings/ValidPalindrome.java) |...|
+ | 65 | 有效数字 [Valid number](./java/com/algorithm/strings/ValidNumber.java)|[java](./java/com/algorithm/strings/ValidNumber.java) |...|
+ | 20 | 有效的括号 [Valid parentheses](./java/com/algorithm/strings/ValidParentheses.java)|[java](./java/com/algorithm/strings/ValidParentheses.java) |...|
+ | 6 | Z字形变换 [Zigzag conversion](./java/com/algorithm/strings/ZigzagConversion.java)|[java](./java/com/algorithm/strings/ZigzagConversion.java) |...|
+
+# Tree Data Structure
+ | 110 | 平衡二叉树 [Balanced binary tree](./java/com/algorithm/treedatastructure/BalancedBinaryTree.java)|[java](./java/com/algorithm/treedatastructure/BalancedBinaryTree.java) |...|
+ | 173 | 二叉搜索树迭代器 [Binary search tree iterator](./java/com/algorithm/treedatastructure/BSTIterator.java)|[java](./java/com/algorithm/treedatastructure/BSTIterator.java) |...|
+ | 106 | 从中序与后序遍历序列构造二叉树 [Construct binary tree from inorder and postorder traversal](./java/com/algorithm/treedatastructure/BuildTreePostOrder.java)|[java](./java/com/algorithm/treedatastructure/BuildTreePostOrder.java) |...|
+ | 105 | 从前序与中序遍历序列构造二叉树 [Construct binary tree from preorder and inorder traversal](./java/com/algorithm/treedatastructure/BuildTreePreOrder.java)|[java](./java/com/algorithm/treedatastructure/BuildTreePreOrder.java) |...|
+ | 108 | 将有序数组转换为二叉搜索树 [Convert sorted array to binary search tree](./java/com/algorithm/treedatastructure/ConvertArrayToBinaryTree.java)|[java](./java/com/algorithm/treedatastructure/ConvertArrayToBinaryTree.java) |...|
+ | 109 | 有序链表转换二叉搜索树 [Convert sorted list to binary search tree](./java/com/algorithm/treedatastructure/ConvertLinkedListToBinaryTree.java)|[java](./java/com/algorithm/treedatastructure/ConvertLinkedListToBinaryTree.java) |...|
+ | 114 | 二叉树展开为链表 [Flatten binary tree to linked list](./java/com/algorithm/treedatastructure/Flatten.java)|[java](./java/com/algorithm/treedatastructure/Flatten.java) |...|
+ | 94 | 二叉树的中序遍历 [Binary tree inorder traversal](./java/com/algorithm/treedatastructure/InorderTraversal.java)|[java](./java/com/algorithm/treedatastructure/InorderTraversal.java) |...|
+ | 236 | 二叉树的最近公共祖先 [Lowest common ancestor of a binary tree](./java/com/algorithm/treedatastructure/LowestCommonAncestor.java)|[java](./java/com/algorithm/treedatastructure/LowestCommonAncestor.java) |...|
+ | 102 | 二叉树的层序遍历 [Binary tree level order traversal](./java/com/algorithm/treedatastructure/LevelOrderTraversal.java)|[java](./java/com/algorithm/treedatastructure/LevelOrderTraversal.java) |...|
+ | 107 | 二叉树的层序遍历 II [Binary tree level order traversal](./java/com/algorithm/treedatastructure/LevelOrderTraversalII.java)|[java](./java/com/algorithm/treedatastructure/LevelOrderTraversalII.java) |...|
+ | 104 | 二叉树的最大深度 [Maximum depth of binary tree](./java/com/algorithm/treedatastructure/MaxDepth.java)|[java](./java/com/algorithm/treedatastructure/MaxDepth.java) |...|
+ | 116 | 填充每个节点的下一个右侧节点指针 [Populating next right pointers in each node](./java/com/algorithm/treedatastructure/NodeConnect.java)|[java](./java/com/algorithm/treedatastructure/NodeConnect.java) |...|
+ | 117 | 填充每个节点的下一个右侧节点指针 II [Populating next right pointers in each node](./java/com/algorithm/treedatastructure/NodeConnectII.java)|[java](./java/com/algorithm/treedatastructure/NodeConnectII.java) |...|
+ | 112 | 路径总和 [Path sum](./java/com/algorithm/treedatastructure/PathSum.java)|[java](./java/com/algorithm/treedatastructure/PathSum.java) |...|
+ | 145 | 二叉树的后序遍历 [Binary tree postorder traversal](./java/com/algorithm/treedatastructure/PostorderTraversal.java)|[java](./java/com/algorithm/treedatastructure/PostorderTraversal.java) |...|
+ | 144 | 二叉树的前序遍历 [Binary tree preorder traversal](./java/com/algorithm/treedatastructure/PreorderTraversal.java)|[java](./java/com/algorithm/treedatastructure/PreorderTraversal.java) |...|
+ | 99 | 恢复二叉搜索树 [Recover binary search tree](./java/com/algorithm/treedatastructure/RecoverBinarySearchTree.java)|[java](./java/com/algorithm/treedatastructure/RecoverBinarySearchTree.java) |...|
+ | 113 | 路径总和 II [Path sum II](./java/com/algorithm/treedatastructure/RootToLeafPathsSum.java)|[java](./java/com/algorithm/treedatastructure/RootToLeafPathsSum.java) |...|
+ | 100 | 相同的树 [Same tree](./java/com/algorithm/treedatastructure/SameTree.java)|[java](./java/com/algorithm/treedatastructure/SameTree.java) |...|
+ | 129 | 求根到叶子节点数字之和 [Sum root to leaf numbers](./java/com/algorithm/treedatastructure/SumRootToLeafNumbers.java)|[java](./java/com/algorithm/treedatastructure/SumRootToLeafNumbers.java) |...|
+ | 101 | 对称二叉树 [Symmetric tree](./java/com/algorithm/treedatastructure/SymmetricTree.java)|[java](./java/com/algorithm/treedatastructure/SymmetricTree.java) |...|
+ | 124 | 二叉树中的最大路径和 [Binary tree maximum path sum](./java/com/algorithm/treedatastructure/TreeMaxPathSum.java)|[java](./java/com/algorithm/treedatastructure/TreeMaxPathSum.java) |...|
+ | 95 | 不同的二叉搜索树 II [Unique binary search trees II](./java/com/algorithm/treedatastructure/UniqueBinarySearchTreesII.java)|[java](./java/com/algorithm/treedatastructure/UniqueBinarySearchTreesII.java) |...|
+ | 98 | 验证二叉搜索树 [Validate binary search tree](./java/com/algorithm/treedatastructure/ValidateBinarySearchTree.java)|[java](./java/com/algorithm/treedatastructure/ValidateBinarySearchTree.java) |...|
+ | 103 | 二叉树的锯齿形层次遍历 [Binary tree zigzag level order traversal](./java/com/algorithm/treedatastructure/ZigzagLevelOrder.java)|[java](./java/com/algorithm/treedatastructure/ZigzagLevelOrder.java) |...|
+
+# Two Pointers
+ | 18 | 四数之和 [Four sum](./java/com/algorithm/twopointers/FourSum.java)|[java](./java/com/algorithm/twopointers/FourSum.java) |...|
+ | 1200 | 最小绝对差 [Minimum absolute difference](./java/com/algorithm/twopointers/MinimumAbsDifference.java)|[java](./java/com/algorithm/twopointers/MinimumAbsDifference.java) |...|
+ | 26 | 删除排序数组中的重复项 [Remove duplicates from sorted array](./java/com/algorithm/twopointers/RemoveDuplicated.java)|[java](./java/com/algorithm/twopointers/RemoveDuplicated.java) |...|
+ | 80 | 删除排序数组中的重复项 II [Remove duplicates from sorted array II](./java/com/algorithm/twopointers/RemoveDuplicatedII.java)|[java](./java/com/algorithm/twopointers/RemoveDuplicatedII.java) |...|
+ | 75 | 颜色分类 [Sort colors](./java/com/algorithm/twopointers/SortColors.java)|[java](./java/com/algorithm/twopointers/SortColors.java) |...|
+ | 15 | 三数之和 [Three sum](./java/com/algorithm/twopointers/ThreeSum.java)|[java](./java/com/algorithm/twopointers/ThreeSum.java) |...|
