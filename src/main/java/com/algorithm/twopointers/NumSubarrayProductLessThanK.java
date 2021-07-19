@@ -1,5 +1,9 @@
 package com.algorithm.twopointers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class NumSubarrayProductLessThanK {
 
     /**
@@ -24,5 +28,30 @@ public class NumSubarrayProductLessThanK {
             ans += right - left + 1;
         }
         return ans;
+    }
+
+    public static int numSubarrayProductLessThanKI(int[] nums, int k) {
+        int[] res = new int[1];
+        List<Integer> sub = new ArrayList<>();
+        dfs(nums, 0, 1, k, res, nums.length, sub);
+        return res[0];
+    }
+
+    static void dfs(int[] nums, int s, int prod, int k, int[] res, int n, List<Integer> sub) {
+        if (prod >= k) {
+            return;
+        }
+        if (prod < k) {
+            List<Integer> out = new ArrayList<>(sub);
+            System.out.println(Arrays.toString(out.toArray()));
+            res[0]++;
+        }
+        for (int i = s; i < n; i++) {
+            sub.add(nums[i]);
+            prod *= nums[i];
+            dfs(nums, i + 1, prod, k, res, n, sub);
+            prod /= nums[i];
+            sub.remove(sub.size() - 1);
+        }
     }
 }

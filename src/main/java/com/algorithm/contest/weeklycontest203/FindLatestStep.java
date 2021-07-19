@@ -1,6 +1,7 @@
 package com.algorithm.contest.weeklycontest203;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FindLatestStep {
 
@@ -27,32 +28,27 @@ public class FindLatestStep {
         if (n == m) {
             return n;
         }
-        int[] p = new int[n];
-        Arrays.fill(p, 1);
+        List<int[]> mp = new ArrayList<>();
+        mp.add(new int[] {0, n - 1});
         for (int i = n - 1; i >= 0; i--) {
-            p[arr[i] - 1] = 0;
-            if (isStep(p, m)) {
-                return i;
+            int k = arr[i] - 1;
+            for (int j = 0; j < mp.size(); j++ ) {
+                int[] t = mp.get(j);
+                if (t[0] <= k && t[1] >= k) {
+                    mp.remove(j);
+                    if (k - t[0] == m || t[1] - k == m) {
+                        return i;
+                    }
+                    if (k - t[0] > m) {
+                        mp.add(new int[]{t[0], k - 1});
+                    }
+                    if (t[1] - k > m) {
+                        mp.add(new int[]{k + 1, t[1]});
+                    }
+                    break;
+                }
             }
         }
         return -1;
-    }
-
-    static boolean isStep(int[] p, int m) {
-        int countOne = 0;
-        for (int i = 0; i < p.length; i++) {
-            if (p[i] == 1) {
-                countOne++;
-            } else {
-                if (countOne == m) {
-                    return true;
-                }
-                countOne = 0;
-            }
-        }
-        if (countOne == m) {
-            return true;
-        }
-        return false;
     }
 }

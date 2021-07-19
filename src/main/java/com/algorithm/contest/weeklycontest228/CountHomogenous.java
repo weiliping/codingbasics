@@ -8,6 +8,25 @@ public class CountHomogenous {
 //        System.out.println(countHomogenous("ax"));
     }
     static final int MOD = (int)1e9 + 7;
+
+    public static int countHomogenousII(String s) {
+    	char[] chrs = s.toCharArray();
+        int n = chrs.length;
+        char cur = chrs[0];
+        long cnt = 0l, subCnt = 1;
+        for (int i = 1; i < n; i++) {
+            if (cur == chrs[i]) {
+                subCnt++;
+                continue;
+            }
+            cnt += (subCnt + 1) * subCnt / 2;
+            cur = chrs[i];
+            subCnt = 1;
+        }
+        cnt += (subCnt + 1) * subCnt / 2;
+        return (int)(cnt % MOD);
+    }
+
     public static int countHomogenousI(String s) {
         int l = 0, r = 0, len = s.length();
         long res = 0l;

@@ -282,6 +282,7 @@
 | 494 | 目标和 [Target Sum](https://leetcode-cn.com/problems/target-sum/)|[Java](src/main/java/com/algorithm/dp/FindTargetSumWays.java) |Medium|Tree|
 | 502 | IPO [IPO](https://leetcode-cn.com/problems/ipo/)|[Java](src/main/java/com/algorithm/twoheaps/MaximizedCapital.java) |Hard|Two Heaps|
 | 543 | 二叉树的直径 [Diameter of binary tree](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|[Java](src/main/java/com/algorithm/treedatastructure/DiameterOfBinaryTree.java) |Medium|Tree|
+| 560 | 和为K的子数组 [Subarray sum equals k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)|[Java](src/main/java/com/algorithm/hashing/SubarraySum.java) |Medium|Hashing|
 | 567 | 字符串的排列 [Permutation in string](https://leetcode-cn.com/problems/permutation-in-string/)|[Java](src/main/java/com/algorithm/slidingwindow/PermutationInString.java) |Medium|Sliding Window|
 | 581 | 最短无序连续子数组 [Shortest unsorted continuous subarray](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)|[Java](src/main/java/com/algorithm/twopointers/ShortestWindowSort.java) |Medium|Two Pointers|
 | 611 | 有效三角形的个数 [Valid triangle number](https://leetcode-cn.com/problems/valid-triangle-number/)|[Java](src/main/java/com/algorithm/arrays/TriangleNumber.java)|Medium|Array|

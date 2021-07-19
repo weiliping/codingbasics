@@ -123,10 +123,11 @@
 |**Greedy** | 1722 | 执行交换操作后的最小汉明距离 [Minimize hamming distance](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/)|[Java](./java/com/algorithm/contest/weeklycontest223/MinimumHammingDistance.java) |Medium|
 |**Hashing** | 454 | 四数相加 II [4sum II](https://leetcode-cn.com/problems/4sum-ii/)|[Java](./java/com/algorithm/hashing/FourSumCount.java) |Medium|
 |**Hashing** | 217 | 存在重复元素 [Contains duplicate](https://leetcode-cn.com/problems/contains-duplicate/)|[Java](./java/com/algorithm/hashing/ContainsDuplicate.java)|Easy|
+|**Hashing** | 138 | 复制带随机指针的链表 [Copy list with random pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)|[Java](./java/com/algorithm/hashing/CopyRandomList.java) |Medium|
 |**Hashing** | 49 | 字母异位词分组 [Group anagrams](https://leetcode-cn.com/problems/group-anagrams/)|[Java](./java/com/algorithm/hashing/Anagrams.java) |Medium|
 |**Hashing** | 387 | 字符串中的第一个唯一字符 [First unique character in a string](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)|[Java](./java/com/algorithm/hashing/FirstUniqueChar.java) |Easy|
 |**Hashing** | 166 | 分数到小数 [Fraction to recurring decimal](https://leetcode-cn.com/problems/fraction-to-recurring-decimal)|[Java](./java/com/algorithm/hashing/FractionToDecimal.java) |Medium|
-|**Hashing** | 138 | 复制带随机指针的链表 [Copy list with random pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)|[Java](./java/com/algorithm/hashing/CopyRandomList.java) |Medium|
+|**Hashing** | 560 | 和为K的子数组 [Subarray sum equals k](https://leetcode-cn.com/problems/subarray-sum-equals-k/)|[Java](./java/com/algorithm/hashing/SubarraySum.java) |Medium|
 |**Hashing** | 242 | 有效的字母异位词 [Valid anagram](https://leetcode-cn.com/problems/valid-anagram/)|[Java](./java/com/algorithm/hashing/ValidAnagram.java) |Easy|
 |**Hashing** | 36 | 有效的数独 [Valid sudoku](https://leetcode-cn.com/problems/valid-sudoku)|[Java](./java/com/algorithm/hashing/ValidSudoku.java) |Medium|
 |**Linked List** | 2 | 两数相加 [Add two numbers](https://leetcode-cn.com/problems/add-two-numbers/)|[Java](./java/com/algorithm/linkedlists/AddTwoNumbers.java) |Medium|
