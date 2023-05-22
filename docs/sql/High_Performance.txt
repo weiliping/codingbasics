@@ -1,0 +1,159 @@
+The access types range from a full table scan to index scans, range scans, unique index lookups, and constants. Each of these is faster than the one before it, because it requires reading less data. 
+
+Connection response is still slow compared to the number of rows MySQL can traverse per second internally, though, which is counted in millions per second for in-memory data. All else being equal, it’s still a good idea to use as few queries as possible, but sometimes you can make a query more efficient by decomposing it and executing a few simple queries instead of one complex one. Don’t be afraid to do this; weigh the costs, and go with the strategy that causes less work. 
+
+SHOW FULL PROCESSLIST
+
+mysql> SELECT SQL_NO_CACHE COUNT(*) FROM sakila.film_actor;
++----------+
+| count(*) |
++----------+
+|     5462 |
++----------+
+mysql> SHOW STATUS LIKE 'last_query_cost';
++-----------------+-------------+
+| Variable_name   | Value       |
++-----------------+-------------+
+| Last_query_cost | 1040.599000 |
++-----------------+-------------+
+
+
+Here are some types of optimizations MySQL knows how to do:
+
+1. Reordering joins
+2. Converting OUTER JOINs to INNER JOINs
+3. Applying algebraic equivalence rules. For example, the term (5=5 AND a>5) will reduce to just a>5. Similarly, (a<b AND b=c) AND a=5 becomes b>5 AND b=c AND a=5. 
+
+COUNT(), MIN(), and MAX() optimizations
+
+
+Evaluating and reducing constant expressions
+
+mysql> EXPLAIN SELECT film.film_id, film_actor.actor_id
+    -> FROM sakila.film
+    ->    INNER JOIN sakila.film_actor USING(film_id)
+    -> WHERE film.film_id = 1;
++----+-------------+------------+-------+----------------+-------+------+
+| id | select_type | table      | type  | key            | ref   | rows |
++----+-------------+------------+-------+----------------+-------+------+
+|  1 | SIMPLE      | film       | const | PRIMARY        | const |    1 |
+|  1 | SIMPLE      | film_actor | ref   | idx_fk_film_id | const |   10 |
++----+-------------+------------+-------+----------------+-------+------+
+
+Covering indexes
+
+
+THE JOIN OPTIMIZER
+
+In other words, the reversed join order will require less backtracking and rereading. To double-check the optimizer’s choice, we executed the two query versions and looked at the Last_query_cost variable for each.
+
+Correlated Subqueries
+mysql> SELECT * FROM sakila.film    
+	-> WHERE film_id IN(    
+	->    SELECT film_id FROM sakila.film_actor WHERE actor_id = 1);
+
+-- SELECT GROUP_CONCAT(film_id) FROM sakila.film_actor WHERE actor_id = 1;
+-- Result: 1,23,25,106,140,166,277,361,438,499,506,509,605,635,749,832,939,970,980
+SELECT * FROM sakila.film
+WHERE film_id
+IN(1,23,25,106,140,166,277,361,438,499,506,509,605,635,749,832,939,970,980);
+
+SELECT * FROM sakila.film
+WHERE EXISTS (
+	SELECT * FROM sakila.film_actor WHERE actor_id = 1   
+	AND film_actor.film_id = film.film_id);
+
+According to the EXPLAIN output, MySQL will table-scan the film table and execute the subquery for each row it finds. This won’t cause a noticeable performance hit on small tables, but if the outer table is very large, the performance will be extremely bad. Fortunately, it’s easy to rewrite such a query as a JOIN:
+
+mysql> SELECT film.* FROM sakila.film
+    ->    INNER JOIN sakila.film_actor USING(film_id)
+    -> WHERE actor_id = 1;
+
+mysql> EXPLAIN SELECT film_id, language_id FROM sakila.film
+    -> WHERE NOT EXISTS(
+    ->    SELECT * FROM sakila.film_actor    
+    ->    WHERE film_actor.film_id = film.film_id    
+    -> )\G 
+*************************** 1. row ***************************           
+			 id: 1  
+	select_type: PRIMARY        
+		  table: film         
+		   type: ALL
+  possible_keys: NULL          
+			key: NULL      
+		key_len: NULL          
+			ref: NULL         
+		   rows: 951        
+		  Extra: Using where
+*************************** 2. row ***************************           
+			 id: 2   
+	select_type: DEPENDENT SUBQUERY        
+		  table: film_actor         
+		   type: ref 
+  possible_keys: idx_fk_film_id          
+			key: idx_fk_film_id      
+		key_len: 2          
+			ref: film.film_id         
+		   rows: 2        
+		  Extra: Using where; Using index
+
+The standard advice for this query is to write it as a LEFT OUTER JOIN instead of using a subquery. In theory, MySQL’s execution plan will be essentially the same either way. Let’s see:
+
+mysql> EXPLAIN SELECT film.film_id, film.language_id
+    -> FROM sakila.film    
+    ->    LEFT OUTER JOIN sakila.film_actor USING(film_id)    
+    -> WHERE film_actor.film_id IS NULL\G
+
+*************************** 1. row ***************************           
+		id: 1  
+select_type: SIMPLE        
+table: film         
+type: ALL
+possible_keys: NULL          
+key: NULL      
+key_len: NULL          
+ref: NULL         
+rows: 951        
+Extra:
+*************************** 2. row ***************************           
+id: 1  
+select_type: SIMPLE        
+table: film_actor         
+type: ref
+possible_keys: idx_fk_film_id          
+key: idx_fk_film_id      
+key_len: 2          
+ref: sakila.film.film_id         
+rows: 2        
+Extra: Using where; Using index; Not exists
+
+The plans are nearly identical, but there are some differences:
+The SELECT type against film_actor is DEPENDENT SUBQUERY in one query and              SIMPLE in the other. This difference simply reflects the syntax, because the first query uses a subquery and the second doesn’t. It doesn’t make much difference in terms of handler operations.The second query doesn’t say “Using where” in the Extra column for the film table. That doesn’t matter, though: the second query’s USING clause is the same thing as a WHERE clause anyway. The second query says “Not exists” in the film_actor table’s Extra column. This is an example of the early-termination algorithm we mentioned earlier in this chapter. It means MySQL is using a not-exists optimization to avoid reading more than one row in the film_actor table’s idx_fk_film_id index. This is equivalent to a NOT EXISTS() correlated subquery, because it stops processing the current row as soon as it finds a match.So, in theory, MySQL will execute the queries almost identically. In reality, benchmarking is the only way to tell which approach is really faster. We benchmarked both queries on our standard setup. The results are shown in Table 4-1.Table 4-1. NOT EXISTS versus LEFT OUTER JOINQueryResult in queries per second
+
+mysql> SELECT film_id, actor_id FROM sakila.film_actor WHERE actor_id = 1
+    -> UNION ALL
+    -> SELECT film_id, actor_id FROM sakila.film_actor WHERE film_id = 1    
+    ->    AND actor_id <> 1;					
+
+PARALLEL EXECUTION
+MySQL can’t execute a single query in parallel on many CPUs. This is a feature offered by some other database servers, but not MySQL. We mention it so that you won’t spend a lot of time trying to figure out how to get parallel query execution on MySQL!
+
+Hash joins
+
+Loose index scans
+
+mysql> SELECT MIN(actor_id) FROM sakila.actor WHERE first_name = 'PENELOPE';
+
+mysql> SELECT actor_id FROM sakila.actor USE INDEX(PRIMARY)    
+	-> WHERE first_name = 'PENELOPE' LIMIT 1;
+
+mysql> SELECT actor.first_name, actor.last_name, COUNT(*)    
+	-> FROM sakila.film_actor    
+	->    INNER JOIN sakila.actor USING(actor_id)    
+	-> GROUP BY actor.first_name, actor.last_name;
+
+Query Optimizer Hints
+
+
+
+
