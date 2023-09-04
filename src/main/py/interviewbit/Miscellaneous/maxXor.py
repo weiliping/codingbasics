@@ -65,9 +65,9 @@ def maxXor(arr, queries):
     return maxRes
 
 
-print(maxXor([3, 7, 5, 10], [3]))
-print(maxXor([5, 1, 7, 4, 3], [2, 0]))
-print(maxXor([1, 3, 5, 7], [17, 6]))
+# print(maxXor([3, 7, 5, 10], [3]))
+# print(maxXor([5, 1, 7, 4, 3], [2, 0]))
+# print(maxXor([1, 3, 5, 7], [17, 6]))
 # def reverseTree(root, ps):
 #     if not root:
 #         return
@@ -83,24 +83,24 @@ print(maxXor([1, 3, 5, 7], [17, 6]))
 #         reverseTree(root.r, right)
 
 # reverseTree(root, [-1])
-# if __name__ == '__main__':
-#     fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-#     n = int(input())
+    n = int(input())
 
-#     arr = list(map(int, input().rstrip().split()))
+    arr = list(map(int, input().rstrip().split()))
 
-#     m = int(input())
+    m = int(input())
 
-#     queries = []
+    queries = []
 
-#     for _ in range(m):
-#         queries_item = int(input())
-#         queries.append(queries_item)
+    for _ in range(m):
+        queries_item = int(input())
+        queries.append(queries_item)
 
-#     result = maxXor(arr, queries)
+    result = maxXor(arr, queries)
 
-#     fptr.write('\n'.join(map(str, result)))
-#     fptr.write('\n')
+    fptr.write('\n'.join(map(str, result)))
+    fptr.write('\n')
 
-#     fptr.close()
+    fptr.close()
