@@ -5,7 +5,7 @@
    * [Patterns for Coding Questions](/docs/grokking/README.md)
    * [Coding Practice](/src/main/java/com/algorithm/practice/README.md)
    * 常用算法
-        - 排序算法 [Sort](/docs/algorithm/sort/README.md) 
+        - 排序算法 [Sort](/docs/algorithm/sort/README.md)
         - 贪心算法 [Greedy](/docs/algorithm/README.md)
         - 分治算法 [Divide and Conquer](/docs/algorithm/README.md)
         - 回溯算法 [Backtracking](/docs/algorithm/README.md)
@@ -14,7 +14,7 @@
    ## 设计模式
    * [Design Pattern](/docs/designpattern/README.md)
    * [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
- 
+
    ## 系统设计
    * [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
    * [Grokking System Design](https://github.com/weiliping/Grokking-System-Design-1)
@@ -22,13 +22,26 @@
 
    ## Java并发
    * [Java Concurrency](/docs/concurrency/README.md)
+     - 线程创建
+     - 基础线程机制
+     - 线程池的创建
+     - 线程中断
+     - 线程互斥同步
+     - 线程间通信
+     - 线程之间的协作
+     - 线程状态
+     - AQS - Abstract Queued Synchronizer
+     - Java 内存模型
+     - 线程安全
+     - 锁优化
 
-   ## Java虚拟机 
+   ## Java虚拟机
    * [Java Virtual Machine](/docs/jvm/README.md)
+     - Java
 
-   ## 数据库知识 
+   ## 数据库知识
    * [SQL Tutorial](/docs/sql/README.md)
-   
+
    ## Reference for Leetcode Solutions
    * [Algorithm and Data Structure Notes](https://aaronice.gitbook.io/lintcode/)
    * [After academy blogs](https://afteracademy.com/user/5d8dc1ce52e77816c998cb97/blogs)
@@ -36,19 +49,19 @@
    * [Leetcode Categories](https://lefttree.gitbooks.io/leetcode-categories/content/index.html)
    * [Program creek](https://www.programcreek.com/wp-content/uploads/2015/03/coding-interview.pdf)
    * [Interview daemon](https://interviewdaemon.com/courses/binary-tree-breadth-first-search/)
-   
+
    ## Books
    * [Programming Books](https://github.com/weiliping/free-programming-books)
    * [Data Science Specialization](https://github.com/weiliping/courses)
-   
+
    ## Summary
    * [Interview](/docs/interview/SUMMARY.md)
-   
+
    ## 其他
    * [Grokking the coding interview](https://www.educative.io/courses/grokking-the-coding-interview)
    * [Reference](/docs/reference/README.md)
    * [Links](/docs/reference/LINKS.md)
-        
+
 # Leetcode算法题答案集合 [Leet Code Problems](/src/main/README.md)
 | # | Title | Solution | Difficulty| Topics |
 | --- | --- | --- | --- | --- |
@@ -305,9 +318,9 @@
 | 973 | 最接近原点的 K 个点 [K Closest Points to Origin](https://leetcode-cn.com/problems/k-closest-points-to-origin/)|[Java](src/main/java/com/algorithm/stacksandqueues/KClosestPoints.java)|Medium|Stack & Queue|
 | 977 | 有序数组的平方 [Squares of a sorted array](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)|[Java](src/main/java/com/algorithm/twopointers/SquaringArray.java)|Medium|Two Pointers|
 | 986 | 区间列表的交集 [Interval list intersections](https://leetcode-cn.com/problems/interval-list-intersections/)|[Java](src/main/java/com/algorithm/mergeintervals/IntervalIntersection.java)|Medium|Merge Interval|
-| 1004 | 最大连续1的个数 III [Max consecutive ones III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)|[Java](src/main/java/com/algorithm/slidingwindow/MaxConsecutiveOnes.java) |Medium|Sliding Window|   
-| 1200 | 最小绝对差 [Minimum absolute difference](https://leetcode-cn.com/problems/minimum-absolute-difference)|[Java](src/main/java/com/algorithm/twopointers/MinimumAbsDifference.java) |Easy|Two Pointers|   
-| 1235 | 规划兼职工作 [Maximum profit in job scheduling](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/)|[Java](src/main/java/com/algorithm/dynamicprogramming/MaximumProfitJobScheduling.java) |Hard|Dynamic Programming|   
+| 1004 | 最大连续1的个数 III [Max consecutive ones III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)|[Java](src/main/java/com/algorithm/slidingwindow/MaxConsecutiveOnes.java) |Medium|Sliding Window|
+| 1200 | 最小绝对差 [Minimum absolute difference](https://leetcode-cn.com/problems/minimum-absolute-difference)|[Java](src/main/java/com/algorithm/twopointers/MinimumAbsDifference.java) |Easy|Two Pointers|
+| 1235 | 规划兼职工作 [Maximum profit in job scheduling](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling/)|[Java](src/main/java/com/algorithm/dynamicprogramming/MaximumProfitJobScheduling.java) |Hard|Dynamic Programming|
 | 1720 | 解码异或后的数组 [Decode xored array](https://leetcode-cn.com/problems/decode-xored-array/)|[Java](src/main/java/com/algorithm/binarysearch/DecodeXoredArray.java) |Easy|Bit Manipulation|
 | 1721 | 交换链表中的节点 [Swapping nodes in a linked list](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/)|[Java](src/main/java/com/algorithm/contest/weeklycontest223/SwappingNodes.java) |Medium|Linked List|
 | 1722 | 执行交换操作后的最小汉明距离 [Minimize hamming distance](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/)|[Java](src/main/java/com/algorithm/contest/weeklycontest223/MinimumHammingDistance.java) |Medium|Greedy|
