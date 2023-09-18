@@ -14,6 +14,7 @@
    ## 设计模式
    * [Design Pattern](/docs/designpattern/README.md)
    * [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
+   * [Programming Principles](https://java-design-patterns.com/principles/)
 
    ## 系统设计
    * [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
@@ -30,17 +31,20 @@
      - 线程间通信
      - 线程之间的协作
      - 线程状态
-     - AQS - Abstract Queued Synchronizer
-     - Java 内存模型
      - 线程安全
      - 锁优化
+     - Java 内存模型
+     - AQS - Abstract Queued Synchronizer
 
    ## Java虚拟机
    * [Java Virtual Machine](/docs/jvm/README.md)
-     - Java
+     - JVM memory
+     - GC algorithm
+     - Class loading
 
    ## 数据库知识
    * [SQL Tutorial](/docs/sql/README.md)
+   * [High Performance MySQL](https://www.oreilly.com/library/view/high-performance-mysql/9781492080503/)
 
    ## Reference for Leetcode Solutions
    * [Algorithm and Data Structure Notes](https://aaronice.gitbook.io/lintcode/)
