@@ -1,3 +1,5 @@
+import requests
+import json
 MAX_V = 10 ** 9 + 7
 
 
@@ -60,4 +62,25 @@ def sortedSumII(a):
 
 
 a = [9, 5, 8]
-print(sortedSumII(a))
+# print(sortedSumII(a))
+
+year = 2014
+team = "Chelsea"
+t = 0
+for i in range(1, 11):
+    api_url = "https://jsonmock.hackerrank.com/api/football_matches?year=" + \
+        str(year) + "&team1goals="+str(i) + "&team2goals="+str(i) + "&page=1"
+    response = requests.get(api_url)
+    json_object = json.loads(response.text)
+    t += len(json_object["data"])
+    pNum = json_object["total_pages"]
+    p = 2
+    while pNum >= p:
+        api_url = "https://jsonmock.hackerrank.com/api/football_matches?year=" + \
+            str(year) + "&team1goals=" + str(i) + \
+            "&team2goals="+str(i) + "&page=" + str(p)
+        response = requests.get(api_url)
+        json_object = json.loads(response.text)
+        t += len(json_object["data"])
+        p += 1
+print(t)
