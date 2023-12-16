@@ -19,6 +19,9 @@
 # Java 全栈知识体系
    * [Java 全栈知识体系](https://pdai.tech/)
 
+# Books
+   * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+   * [Wow ebook](https://www.wowebook.org/category/databases-big-data/)
 # 其他
    * [97 Things Every Programmer Should Know](https://97-things-every-x-should-know.gitbooks.io/97-things-every-programmer-should-know/content/en/)
    * [Reference](reference/README.md)
