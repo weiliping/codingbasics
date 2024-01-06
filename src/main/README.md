@@ -1,3 +1,7 @@
+# Algorithm
+  **[Leetcode Problem Solutions](#Solutions)**
+
+# Solutions
 | Topics | # | Title | Solution | Difficulty|
 | --- | --- | --- | --- | --- |
 |**Array**| 11 | 盛最多水的容器 [Container with most water](https://leetcode-cn.com/problems/container-with-most-water/)|[Java](./java/com/algorithm/arrays/MaxArea.java)|Medium|
@@ -385,7 +389,7 @@
 - [Pretty json](./java/com/algorithm/strings/PrettyJson.java) (String)
 - [Array three pointers](./java/com/algorithm/twopointers/ClosestElementsFromSortedArrays.java) (Two Pointers)
 - [Merge two sorted lists II](./java/com/algorithm/twopointers/MergeSortedListsII.java) (Two Pointers)
-- [Anti Diagonals](./java/com/algorithm/arrays/AntiDiagonals.java)  
+- [Anti Diagonals](./java/com/algorithm/arrays/AntiDiagonals.java)
 - [Hotel bookings possible](./java/com/algorithm/arrays/HotelBookings.java)
 - [Maximum distance](./java/com/algorithm/arrays/MaximumDistance.java)
 - [Sorted permutation rank](./java/com/algorithm/math/LexicographicalRank.java)
@@ -428,3 +432,11 @@
 - [ToSeven](./java/com/algorithm/others/ToSeven.java)
 - [WildcardMatching](./java/com/algorithm/others/WildcardMatching.java)
 - [ZigzagConversionCopy](./java/com/algorithm/others/ZigzagConversionCopy.java)
+
+# Reference for Leetcode Solutions
+- [Algorithm and Data Structure Notes](https://aaronice.gitbook.io/lintcode/)
+- [After academy blogs](https://afteracademy.com/user/5d8dc1ce52e77816c998cb97/blogs)
+- [Grokking the Coding Interview Patterns for Coding Questions](https://github.com/weiliping/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
+- [Leetcode Categories](https://lefttree.gitbooks.io/leetcode-categories/content/index.html)
+- [Program creek](https://www.programcreek.com/wp-content/uploads/2015/03/coding-interview.pdf)
+- [Interview daemon](https://interviewdaemon.com/courses/binary-tree-breadth-first-search/)

@@ -33,14 +33,6 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
    * [Awesome Javascript](https://github.com/weiliping/awesome-javascript)
    * [Awesome Codepoints](https://github.com/weiliping/awesome-codepoints)
 
-   ## Reference for Leetcode Solutions
-   * [Algorithm and Data Structure Notes](https://aaronice.gitbook.io/lintcode/)
-   * [After academy blogs](https://afteracademy.com/user/5d8dc1ce52e77816c998cb97/blogs)
-   * [Grokking the Coding Interview Patterns for Coding Questions](https://github.com/weiliping/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
-   * [Leetcode Categories](https://lefttree.gitbooks.io/leetcode-categories/content/index.html)
-   * [Program creek](https://www.programcreek.com/wp-content/uploads/2015/03/coding-interview.pdf)
-   * [Interview daemon](https://interviewdaemon.com/courses/binary-tree-breadth-first-search/)
-
    ## Books
    * [Programming Books](https://github.com/weiliping/free-programming-books)
    * [Data Science Specialization](https://github.com/weiliping/courses)
