@@ -25,6 +25,7 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
      - [Concurrency](/docs/concurrency/README.md)
    ## Frontend
    ## Best Practices
+   * [Programing Best Practices](/docs/bestpractices/README.md)
    ## Awesome repo
    * [Awesome Python](https://github.com/weiliping/awesome-python)
    * [Awesome Ruby](https://github.com/weiliping/awesome-ruby)
