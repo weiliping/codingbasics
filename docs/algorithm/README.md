@@ -1,16 +1,16 @@
 # 算法
-   * 排序算法 [Sort][./sort/README.md]
-       - 算法详解 [Sort Algorithm](https://github.com/weiliping/DataStructure-BeautyOfAlgorithm/blob/master/docs/07.%E6%8E%92%E5%BA%8F.md)
-       - 常见排序算法 [Sort][./sort/README.md]
-       - 算法实现（Java）
-        * 冒泡排序 [BubbleSort](../../src/main/java/com/algorithm/sort/BubbleSort.java)
-        * 插入排序 [InsertSort](../../src/main/java/com/algorithm/sort/InsertSort.java)
-        * 选择排序 [SelectionSort](../../src/main/java/com/algorithm/sort/SelectionSort.java)
-        * 归并排序 [MergeSort](../../src/main/java/com/algorithm/sort/MergeSort.java)
-        * 快速排序 [QuickSort](../../src/main/java/com/algorithm/sort/QuickSort.java)
-        * 桶排序 [BucketSort](../../src/main/java/com/algorithm/sort/BucketSort.java)
-        * 计数排序 [CountSort](../../src/main/java/com/algorithm/sort/CountSort.java)
-        * 基数排序 [RadixSort](../../src/main/java/com/algorithm/sort/RadixSort.java)
+   * 排序算法 [Sort](./sort/README.md)
+       * 算法详解 [Sort Algorithm](https://github.com/weiliping/DataStructure-BeautyOfAlgorithm/blob/master/docs/07.%E6%8E%92%E5%BA%8F.md)
+       * 常见排序算法 [Sort](./sort/README.md)
+       * 算法实现（Java）
+         - 冒泡排序 [BubbleSort](../../src/main/java/com/algorithm/sort/BubbleSort.java)
+         - 插入排序 [InsertSort](../../src/main/java/com/algorithm/sort/InsertSort.java)
+         - 选择排序 [SelectionSort](../../src/main/java/com/algorithm/sort/SelectionSort.java)
+         - 归并排序 [MergeSort](../../src/main/java/com/algorithm/sort/MergeSort.java)
+         - 快速排序 [QuickSort](../../src/main/java/com/algorithm/sort/QuickSort.java)
+         - 桶排序 [BucketSort](../../src/main/java/com/algorithm/sort/BucketSort.java)
+         - 计数排序 [CountSort](../../src/main/java/com/algorithm/sort/CountSort.java)
+         - 基数排序 [RadixSort](../../src/main/java/com/algorithm/sort/RadixSort.java)
    * 二分法查找 [Binary Search](https://github.com/weiliping/DataStructure-BeautyOfAlgorithm/blob/master/docs/09.%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.md)
        * 二分查找的思想
             - 二分查找针对的是一个有序的数据集合，查找思想有点类似分治思想。每次都通过跟区间的中间元素对比，将待查找的区间缩小为之前的一半，直到找到要查找的元素，或者区间被缩小为 0。
