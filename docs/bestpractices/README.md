@@ -9,7 +9,7 @@
      - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
    * Multiple Thread
    * Concurrency and lock
-## Frontend
+## Frontend [Frontend Best Practices](https://roadmap.sh/best-practices/frontend-performance)
    * HTML
      - [HTML Best Practices](https://github.com/hail2u/html-best-practices)
      - [HTML5 (and Some CSS) Best Practice](https://www.codeproject.com/Tips/666578/HTML-and-Some-CSS-Best-Practice)
@@ -25,8 +25,5 @@
      - [Sass-lang Style Rule](https://sass-lang.com/documentation/style-rules)
    * Javascript
      - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-     - [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
-     - [Common JavaScript "Gotchas"](https://github.com/stevekwan/best-practices/blob/master/javascript/gotchas.md)
-     - [Pragmatic Standards: JavaScript Coding Standards and Best Practices](https://github.com/stevekwan/bt-practices/blob/master/javascript/best-practices.md)
      - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
      - [MDN JavaScript guidelines](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript)
