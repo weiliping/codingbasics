@@ -1,5 +1,5 @@
 # 算法
-   * 排序算法 [Sort](./sort/README.md)
+   * 排序算法 [Sort](https://github.com/weiliping/DataStructure-BeautyOfAlgorithm/blob/master/docs/07.%E6%8E%92%E5%BA%8F.md)
        * 算法详解 [Sort Algorithm](https://github.com/weiliping/DataStructure-BeautyOfAlgorithm/blob/master/docs/07.%E6%8E%92%E5%BA%8F.md)
        * 常见排序算法 [Sort](./sort/README.md)
        * 算法实现（Java）
