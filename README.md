@@ -1,5 +1,5 @@
 # CODINGBASICS
-Codingbasics includes a variety of topics such as data structures, algorithms, system design, JVM-related content, Java concurrency, Best Practices and etc. Most of the algorithms are implemented in Java, while the remainder are implemented in Python. I also collected some awesome projects for your reference in this repo. If you are interested in software development and computer science, this repo may be helpful for you.
+Codingbasics includes a variety of topics such as data structures, algorithms, system design, JVM-related content, Java concurrency, best practices, awesome projects and etc. Most of the algorithms are implemented in Java, while the remainder are implemented in Python. If you are interested in software development and computer science, this repo may be helpful for you.
    ## Data Structure (数据结构)
    * [Data Structure](/docs/datastructure/README.md)
    ## Algorithm (算法)
