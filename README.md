@@ -1,8 +1,13 @@
 # CODINGBASICS
-Codingbasics includes a variety of topics such as data structures, algorithms, system design, JVM-related content, Java concurrency and etc. Most of the algorithms are implemented in Java, while the remainder are implemented in Python. If you are interested in software development and computer science, this repo may be helpful for you.
+Codingbasics includes a variety of topics such as data structures, algorithms, system design, JVM-related content, Java concurrency, Best Practices and etc. Most of the algorithms are implemented in Java, while the remainder are implemented in Python. I also collected some awesome projects for your reference in this repo. If you are interested in software development and computer science, this repo may be helpful for you.
    ## Data Structure (数据结构)
-    * [Data Structure](/docs/datastructure/README.md)
+   * [Data Structure](/docs/datastructure/README.md)
    ## Algorithm (算法)
+   * [Algorithm](/docs/algorithm/README.md)
+   * [Leetcode Problems](/src/main/README.md)
+   * [Java Solutions](/src/main/java/README.md)
+   * [Patterns for Coding Questions](/docs/grokking/README.md)
+   * [Coding Practice](/src/main/java/com/algorithm/practice/README.md)
    ## System Design (系统设计)
    * [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
    * [Grokking System Design](https://github.com/weiliping/Grokking-System-Design-1)
@@ -11,28 +16,21 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
    * [SQL Tutorial](/docs/sql/README.md)
    * [High Performance MySQL](https://www.oreilly.com/library/view/high-performance-mysql/9781492080503/)
    ## Backend
-    * Design Pattern
-      - [Design Pattern](/docs/designpattern/README.md)
-      - [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
-      - [Programming Principles](https://java-design-patterns.com/principles/)
-    * Java
-      - [Java Virtual Machine](/docs/jvm/README.md)
-      - [Concurrency](/docs/concurrency/README.md)
+   * Design Pattern (设计模式)
+    - [Design Pattern](/docs/designpattern/README.md)
+    - [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
+    - [Programming Principles](https://java-design-patterns.com/principles/)
+   * Java
+    - [Java Virtual Machine](/docs/jvm/README.md)
+    - [Concurrency](/docs/concurrency/README.md)
    ## Frontend
    ## Best Practices
    ## Awesome repo
-        -
-        -
-    * [Leetcode Problems](/src/main/README.md)
-   * [Patterns for Coding Questions](/docs/grokking/README.md)
-   * [Coding Practice](/src/main/java/com/algorithm/practice/README.md)
-   * 常用算法
-
-
-   ## 设计模式
-   * [Design Pattern](/docs/designpattern/README.md)
-   * [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
-   * [Programming Principles](https://java-design-patterns.com/principles/)
+   * [Awesome Python](https://github.com/weiliping/awesome-python)
+   * [Awesome Ruby](https://github.com/weiliping/awesome-ruby)
+   * [Awesome PHP](https://github.com/weiliping/awesome-php)
+   * [Awesome Javascript](https://github.com/weiliping/awesome-javascript)
+   * [Awesome Codepoints](https://github.com/weiliping/awesome-codepoints)
 
    ## Reference for Leetcode Solutions
    * [Algorithm and Data Structure Notes](https://aaronice.gitbook.io/lintcode/)
@@ -48,8 +46,7 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
 
    ## Jobs
    * [Interview](/docs/interview/SUMMARY.md)
-
-   ## Others
    * [Grokking the coding interview](https://www.educative.io/courses/grokking-the-coding-interview)
+   ## Others
    * [Reference](/docs/reference/README.md)
    * [Links](/docs/reference/LINKS.md)
