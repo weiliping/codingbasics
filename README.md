@@ -20,6 +20,7 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
      - [Design Pattern](/docs/designpattern/README.md)
      - [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
      - [Programming Principles](https://java-design-patterns.com/principles/)
+     - [Design patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)
    * Java
      - [Java Virtual Machine](/docs/jvm/README.md)
      - [Concurrency](/docs/concurrency/README.md)

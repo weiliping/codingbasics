@@ -1,7 +1,28 @@
 # Programing Best Practices
 ## System Design
-## DB Design
+   * [RabbitMQ](https://www.cloudamqp.com/blog/part1-rabbitmq-best-practice.html?gad_source=1&gclid=CjwKCAiA7t6sBhAiEiwAsaieYrpUFi8wBK548G7iHJWedXE0UbHaD-S5ZhvDcUnXTFv8AqbExQSTQBoCHYwQAvD_BwE)
+   * [Amazon MQ for RabbitMQ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/best-practices-rabbitmq.html)
+## Database
+   * SQL
+     - [SQL Style Guide](https://www.sqlstyle.guide)
+     - [Best practices for writing SQL queries](https://www.metabase.com/learn/sql-questions/sql-best-practices)
+     - [SQL Performance Explained by Markus Winand](https://use-the-index-luke.com/)
+     - [SQL Style Guide at GitLab](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
+   * Postgresql
+     - [PostgreSQL Performance Best Practices](https://www.adservio.fr/post/postgresql-performance-best-practices)
+     - [Best Practices for PostgreSQL Database](https://www.e2enetworks.com/blog/best-practices-for-postgresql-database)
+     - [Best Practices for Designing PostgreSQL Databases and How AppMaster Can Simplify the Process](https://appmaster.io/blog/best-practices-for-designing-postgresql-databases)
+   * NoSQL
+     - [Best Practices in NoSQL Database Design](https://dev.to/ahmed2929/designing-for-document-databases-pio)
+     - [nosql-data-modeling-best-practices](https://www.scylladb.com/2023/12/14/nosql-data-modeling-best-practices/)
+   * Design
+     - [Best Practices for Database Design](https://modeldba.com/guides/best-practices-for-database-design/)
+     - [Database Design Principles](https://vertabelo.com/blog/database-design-principles/)
+     - [Database design basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
+
 ## Backend
+   * Restful API
+     - [API Security](https://roadmap.sh/best-practices/api-security)
    * Java
      - [Java Style Guide](https://github.com/raywenderlich/java-style-guide)
      - [Java Best Practices Guide](https://howtodoinjava.com/java-best-practices/)
@@ -24,6 +45,9 @@
      - [Sass-Guidlines](https://github.com/blackfalcon/Sass-Guidlines/blob/master/SASS-Guidelines.md)
      - [Sass-lang Style Rule](https://sass-lang.com/documentation/style-rules)
    * Javascript
+     - [Javascript Best Practices](https://www.drupal.org/docs/develop/standards/javascript/)
      - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
      - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
      - [MDN JavaScript guidelines](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript)
+     - [Best Practices for Writing Efficient and Maintainable JavaScript Code](https://codedamn.com/news/javascript/best-practices-for-writing-javascript-code)
+     - [Best practices to write JavaScript code](https://www.codementor.io/@riza/best-practices-to-write-javascript-code-238xt11q41)
