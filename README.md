@@ -23,7 +23,6 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
    * Java
      - [Java Virtual Machine](/docs/jvm/README.md)
      - [Concurrency](/docs/concurrency/README.md)
-   ## Frontend
    ## Best Practices
    * [Programing Best Practices](/docs/bestpractices/README.md)
    ## Awesome repo
@@ -48,6 +47,7 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
    ## Jobs
    * [Interview](/docs/interview/SUMMARY.md)
    * [Grokking the coding interview](https://www.educative.io/courses/grokking-the-coding-interview)
+
    ## Others
    * [Reference](/docs/reference/README.md)
    * [Links](/docs/reference/LINKS.md)

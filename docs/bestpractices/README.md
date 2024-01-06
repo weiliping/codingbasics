@@ -10,14 +10,14 @@
    * Multiple Thread
    * Concurrency and lock
 ## Frontend
-   * HTML Best Practices
+   * HTML
      - [HTML Best Practices](https://github.com/hail2u/html-best-practices)
      - [HTML5 (and Some CSS) Best Practice](https://www.codeproject.com/Tips/666578/HTML-and-Some-CSS-Best-Practice)
      - [Google HTML Style Guide](https://google.github.io/styleguide/htmlcssguide.html#HTML)
    * CSS
      - [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)
      - [Dropbox (S)CSS Style Guide](https://github.com/dropbox/css-style-guide)
-     - [CSS Coding Standards and Best Practices](https://github.com/stevekwan/best-practices/blob/master/css/ bt-practices.md)
+     - [CSS Coding Standards and Best Practices](https://github.com/stevekwan/best-practices/blob/master/css/bt-practices.md)
      - [Google CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#CSS)
    * SASS
      - [Sass Coding Guidelines](https://github.com/bigcommerce/sass-style-guide)
