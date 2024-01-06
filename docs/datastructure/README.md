@@ -1,4 +1,4 @@
-# 数据结构&算法
+# 数据结构
    * 数组 [Array](https://github.com/weiliping/DataStructure-BeautyOfAlgorithm/blob/master/docs/02.%E6%95%B0%E7%BB%84.md)
         * 数组的低效操作
             - 数组插入、删除数据时需要搬移其他数据等
@@ -176,4 +176,3 @@
             - 图一个顶点可以与任意其他顶点建立连接关系，这种建立的关系叫边(edge)
        * 有向图 & 无向图
        * 带权图
-# 算法
