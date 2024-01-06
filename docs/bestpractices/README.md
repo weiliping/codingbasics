@@ -1,5 +1,7 @@
 # Programing Best Practices
 ## System Design
+   * [Grokking Scalability in System Design](https://www.designgurus.io/blog/grokking-system-design-scalability)
+   * [System Design Basics](https://www.designgurus.io/blog/high-availability-system-design-basics)
    * [RabbitMQ](https://www.cloudamqp.com/blog/part1-rabbitmq-best-practice.html?gad_source=1&gclid=CjwKCAiA7t6sBhAiEiwAsaieYrpUFi8wBK548G7iHJWedXE0UbHaD-S5ZhvDcUnXTFv8AqbExQSTQBoCHYwQAvD_BwE)
    * [Amazon MQ for RabbitMQ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/best-practices-rabbitmq.html)
 ## Database
@@ -28,8 +30,10 @@
      - [Java Best Practices Guide](https://howtodoinjava.com/java-best-practices/)
      - [30 Java Programming Tips and Best Practices for Beginners](https://www.javacodegeeks.com/2015/06/java-programming-tips-best-practices-beginners.html)
      - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-   * Multiple Thread
-   * Concurrency and lock
+   * Concurrency and Multithreading
+     - [Best Practices for Concurrency in Java](https://www.techrepublic.com/article/java-concurrency-best-practices/)
+     - [Best Practices for Multithreading in Java](https://www.developer.com/java/java-multithreading-best-practices/)
+
 ## Frontend [Frontend Best Practices](https://roadmap.sh/best-practices/frontend-performance)
    * HTML
      - [HTML Best Practices](https://github.com/hail2u/html-best-practices)
@@ -51,3 +55,5 @@
      - [MDN JavaScript guidelines](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript)
      - [Best Practices for Writing Efficient and Maintainable JavaScript Code](https://codedamn.com/news/javascript/best-practices-for-writing-javascript-code)
      - [Best practices to write JavaScript code](https://www.codementor.io/@riza/best-practices-to-write-javascript-code-238xt11q41)
+## Reference
+   - [Programing Best Practices in 2024](https://github.com/dereknguyen269/programing-best-practices-in-2024)
