@@ -15,14 +15,14 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
    ## Database （数据库）
    * [SQL Tutorial](/docs/sql/README.md)
    * [High Performance MySQL](https://www.oreilly.com/library/view/high-performance-mysql/9781492080503/)
-   ## Backend
+   ### Backend
    * Design Pattern (设计模式)
-   - [Design Pattern](/docs/designpattern/README.md)
-   - [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
-   - [Programming Principles](https://java-design-patterns.com/principles/)
+     - [Design Pattern](/docs/designpattern/README.md)
+     - [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
+     - [Programming Principles](https://java-design-patterns.com/principles/)
    * Java
-    - [Java Virtual Machine](/docs/jvm/README.md)
-    - [Concurrency](/docs/concurrency/README.md)
+     - [Java Virtual Machine](/docs/jvm/README.md)
+     - [Concurrency](/docs/concurrency/README.md)
    ## Frontend
    ## Best Practices
    ## Awesome repo
