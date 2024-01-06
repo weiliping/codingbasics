@@ -1,5 +1,28 @@
 # Algorithm
-  **[Leetcode Problem Solutions](#Solutions)**
+  - **[Leetcode Problem Solutions](#Solutions)**
+  - **[Arrays and Sort](#Arrays-and-Sort)**
+  - **[Top K](#Top-K)**
+  - **[Heap](#Heap)**
+  - **[Union Find](#Union-Find)**
+  - **[Bitwise XOR](#Bitwise-XOR)**
+  - **[Hash](#Hash)**
+  - **[Backtracking](#Backtracking)**
+  - **[Graph](#Graph)**
+  - **[Greedy](#Greedy)**
+  - **[Modified Binary Search](#Modified-Binary-Search)**
+  - **[Design](#Design)**
+  - **[BFS](#BFS)**
+  - **[DFS](#DFS)**
+  - **[Sliding Window](#Sliding-Window)**
+  - **[Topological Sort](#Topological-Sort)**
+  - **[Minimum Spanning Tree](#Minimum_Spanning_Tree)**
+  - **[Knapsack](#Knapsack)**
+  - **[BitMask](#BitMask)**
+  - **[Prefix Sum](#Prefix-Sum)**
+  - **[Memoization](#Memoization)**
+  - **[Algorithm from interviewbit](#Algorithm-from-interviewbit)**
+  - **[Others](#Others)**
+  - **[Reference](#Reference)**
 
 # Solutions
 | Topics | # | Title | Solution | Difficulty|
@@ -266,7 +289,7 @@
 |**Two Pointers** | 713 | 乘积小于K的子数组 [Subarray product less than k](https://leetcode-cn.com/problems/subarray-product-less-than-k/)|[Java](./java/com/algorithm/twopointers/NumSubarrayProductLessThanK.java)|Medium|
 |**Two Pointers** | 15 | 三数之和 [Three sum](https://leetcode-cn.com/problems/3sum/)|[Java](./java/com/algorithm/twopointers/ThreeSum.java) |Medium|
 
-# Arrays and Sort
+# Arrays-and-Sort
 - [Single Threaded CPU](./java/com/algorithm/contest/weeklycontest237/SingleThreadedCpu.java)
 - [Max Distance](./java/com/algorithm/contest/weeklycontest240/MaxDistance.java)
 - [Max Frequency](./java/com/algorithm/contest/weeklycontest238/MaxFrequency.java)
@@ -283,19 +306,19 @@
 - [Can Reach](./java/com/algorithm/contest/weeklycontest243/AssignTasks.java)
 - [Min Pair Sum](./java/com/algorithm/contest/biweeklycontest53/MinPairSum.java)
 
-# Top K
+# Top_K
 - [Kth Largest Number](./java/com/algorithm/contest/weeklycontest256/KthLargestNumber.java)
 
 # Heap
 - [Assign Tasks](./java/com/algorithm/contest/weeklycontest243/AssignTasks.java)
 
-# Union Find
+# Union-Find
 - [Make Connected](./java/com/algorithm/contest/weeklycontest171/MakeConnected.java)
 - [Are Connected](./java/com/algorithm/contest/weeklycontest211/AreConnected.java)
 - [Distance Limited Paths Exist](./java/com/algorithm/contest/weeklycontest220/DistanceLimitedPathsExist.java)
 - [Minimum Hamming Distance](./java/com/algorithm/contest/weeklycontest223/MinimumHammingDistance.java)
 
-# Bitwise XOR
+# Bitwise-XOR
 - [Find Different Binary String](./java/com/algorithm/contest/weeklycontest255/FindDifferentBinaryString.java)
 - [Num Of Strings](./java/com/algorithm/contest/weeklycontest254/NumOfStrings.java)
 - [Subset XOR Sum](./java/com/algorithm/contest/weeklycontest241/SubsetXORSum.java)
@@ -308,10 +331,6 @@
 - [Maximum Number of Accepted Invitations](./java/com/algorithm/backtracking/MaximumInvitations.java)
 - [Matchsticks to square](./java/com/algorithm/backtracking/Makesquare.java)
 
-# DFS
-- [Can Merge](./java/com/algorithm/contest/weeklycontest249/CanMerge.java)
-- [Pond Sizes](./java/com/algorithm/dfs/PondSizes.java)
-
 # Graph
 - [Count Sub Islands](./java/com/algorithm/contest/weeklycontest246/CountSubIslands.java)
 - [Count Servers](./java/com/algorithm/contest/weeklycontest164/CountServers.java)
@@ -319,7 +338,7 @@
 # Greedy
 - [Max Value](./java/com/algorithm/contest/weeklycontest243/MaxValue.java)
 
-# Modified Binary Search
+# Modified-Binary-Search
 - [Min Speed on Time](./java/com/algorithm/contest/weeklycontest242/MinSpeedOnTime.java)
 - [Minimum Size](./java/com/algorithm/contest/weeklycontest228/MinimumSize.java)
 - [Min Wasted Space](./java/com/algorithm/contest/weeklycontest244/MinWastedSpace.java)
@@ -335,18 +354,20 @@
 - [Multiplication Operations](./java/com/algorithm/contest/weeklycontest229/MultiplicationOperations.java)
 - [Has Valid Path](./java/com/algorithm/dfs/HasValidPath.java)
 - [Max Sum Min Product](./java/com/algorithm/contest/weeklycontest240/MaximumPopulation.java)
+- [Can Merge](./java/com/algorithm/contest/weeklycontest249/CanMerge.java)
+- [Pond Sizes](./java/com/algorithm/dfs/PondSizes.java)
 
-# Sliding Window
+# Sliding-Window
 - [Count Homogenous](./java/com/algorithm/contest/weeklycontest228/CountHomogenous.java)
 
-# Topological Sort
+# Topological-Sort
 - [Minimum Edges](./java/com/algorithm/contest/weeklycontest228/MinimumEdges.java)
 
-# Minimum Spanning Tree
+# Minimum-Spanning-Tree
 - [Min Cost Connect Points - Prim](./java/com/algorithm/contest/weeklycontest206/MinCostConnectPointsPrim.java)
 - [Min Cost Connect Points - Kruskal](./java/com/algorithm/contest/weeklycontest206/MinCostConnectPointsKruskal.java)
 
-# Knapsack (Dynamic Programming)
+# Knapsack
 - [Longest Pralindrome](./java/com/algorithm/contest/weeklycontest229/LongestPralindrome.java)
 - [Knapsack](./java/com/algorithm/dp/Knapsack.java)
 - [Coin Change](./java/com/algorithm/dp/CoinChange.java)
@@ -379,7 +400,7 @@
 # Memoization
 - [Min Days](./java/com/algorithm/contest/weeklycontest202/MinDays.java)
 
-# Algorithm from interviewbit
+# Algorithm-from-interviewbit
 - [Longest arithmetic progression](./java/com/algorithm/dynamicprogramming/LongestArithmeticProgression.java) (Dynamic Programming)
 - [Smallest sequence with given primes](./java/com/algorithm/graphdata/SmallestSequenceWithGivenPrimes.java) (Graph)
 - [Distribute candy](./java/com/algorithm/greedyalgorithm/DistributeCandy.java) (Greedy)
@@ -433,7 +454,7 @@
 - [WildcardMatching](./java/com/algorithm/others/WildcardMatching.java)
 - [ZigzagConversionCopy](./java/com/algorithm/others/ZigzagConversionCopy.java)
 
-# Reference for Leetcode Solutions
+# Reference
 - [Algorithm and Data Structure Notes](https://aaronice.gitbook.io/lintcode/)
 - [After academy blogs](https://afteracademy.com/user/5d8dc1ce52e77816c998cb97/blogs)
 - [Grokking the Coding Interview Patterns for Coding Questions](https://github.com/weiliping/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions)
