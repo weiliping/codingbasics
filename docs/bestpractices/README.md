@@ -3,6 +3,8 @@
    * [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
    * [Grokking Scalability in System Design](https://www.designgurus.io/blog/grokking-system-design-scalability)
    * [System Design Basics](https://www.designgurus.io/blog/high-availability-system-design-basics)
+   * [CAP Theorem for System Design](https://www.turing.com/kb/cap-theorem-for-system-design#consistency-&-availability-(ca-database))
+   * [System Design: Complete Guide with Patterns](https://swimm.io/learn/system-design/system-design-complete-guide-with-patterns-examples-and-techniques)
    * [RabbitMQ](https://www.cloudamqp.com/blog/part1-rabbitmq-best-practice.html?gad_source=1&gclid=CjwKCAiA7t6sBhAiEiwAsaieYrpUFi8wBK548G7iHJWedXE0UbHaD-S5ZhvDcUnXTFv8AqbExQSTQBoCHYwQAvD_BwE)
    * [Amazon MQ for RabbitMQ](https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/best-practices-rabbitmq.html)
 ## Database
@@ -34,6 +36,20 @@
    * Concurrency and Multithreading
      - [Best Practices for Concurrency in Java](https://www.techrepublic.com/article/java-concurrency-best-practices/)
      - [Best Practices for Multithreading in Java](https://www.developer.com/java/java-multithreading-best-practices/)
+   * Ruby
+     - [Ruby Style Guide](https://github.com/airbnb/ruby)
+     - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) - @bbatsov
+     - [Shopify’s Ruby Style Guide ](https://github.com/Shopify/ruby-style-guide)
+     - [Airbnb's Ruby Style Guide](https://github.com/airbnb/ruby)
+     - [DESIGN PATTERNS in RUBY](https://refactoring.guru/design-patterns/ruby)
+   * Python
+     - [Python Best Practices – The only guide to become Python Expert](https://data-flair.training/blogs/python-best-practices/)
+     - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839) - @sloria
+     - [Python Best Practices and Tips by Toptal Developers](https://www.toptal.com/python/tips-and-practices)
+     - [Code Style](https://docs.python-guide.org/writing/style/)
+     - [11 Tips And Tricks To Write Better Python Code](https://www.python-engineer.com/posts/1tips-to-write-better-python-code/)
+     - [Python tutorial: Best practices and common mistakes to avoid](https://jaxenter.com/python-tutorial-best-practices-145959.html)
+     - [DESIGN PATTERNS in PYTHON](https://refactoring.guru/design-patterns/python)
 
 ## Frontend [Frontend Best Practices](https://roadmap.sh/best-practices/frontend-performance)
    * HTML

@@ -26,6 +26,7 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
      - [Concurrency](/docs/concurrency/README.md)
    ## Best Practices
    * [Programing Best Practices](/docs/bestpractices/README.md)
+   * [Code Review Best Practices](https://roadmap.sh/best-practices/code-review)
    ## Awesome repo
    * [Awesome Python](https://github.com/weiliping/awesome-python)
    * [Awesome Ruby](https://github.com/weiliping/awesome-ruby)
@@ -36,10 +37,12 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
    ## Books
    * [Programming Books](https://github.com/weiliping/free-programming-books)
    * [Data Science Specialization](https://github.com/weiliping/courses)
+   * [Grokking the coding interview](https://www.educative.io/courses/grokking-the-coding-interview)
 
    ## Jobs
    * [Interview](/docs/interview/SUMMARY.md)
-   * [Grokking the coding interview](https://www.educative.io/courses/grokking-the-coding-interview)
+   * [Remote](https://github.com/alinebastos/remote)
+   * [Remote Jobs](https://github.com/remoteintech/remote-jobs)
 
    ## Others
    * [Reference](/docs/reference/README.md)
