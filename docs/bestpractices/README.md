@@ -55,13 +55,12 @@
      - [Airbnb's Ruby Style Guide](https://github.com/airbnb/ruby)
      - [Design Patterns in Ruby](https://refactoring.guru/design-patterns/ruby)
    * Python
-     - [Python Best Practices – The only guide to become Python Expert](https://data-flair.training/blogs/python-best-practices/)
+     - [Writing Great Python Code](https://docs.python-guide.org/#writing-great-python-code)
      - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839)
      - [Python Best Practices and Tips by Toptal Developers](https://www.toptal.com/python/tips-and-practices)
      - [Code Style](https://docs.python-guide.org/writing/style/)
-     - [11 Tips And Tricks To Write Better Python Code](https://www.python-engineer.com/posts/1tips-to-write-better-python-code/)
-     - [Python tutorial: Best practices and common mistakes to avoid](https://jaxenter.com/python-tutorial-best-practices-145959.html)
-     - [DESIGN PATTERNS in PYTHON](https://refactoring.guru/design-patterns/python)
+     - [11 Tips And Tricks To Write Better Python Code](https://www.python-engineer.com/posts/11-tips-to-write-better-python-code/)
+     - [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
 
 ## Frontend
    * Performance
