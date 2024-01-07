@@ -59,6 +59,7 @@
      - [Design Patterns in Ruby](https://refactoring.guru/design-patterns/ruby)
    * Python
      - [Code Style](https://docs.python-guide.org/writing/style/)
+     - [Python Guide](https://handbook.gitlab.com/handbook/business-technology/data-team/platform/python-guide/)
      - [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
      - [Writing Great Python Code](https://docs.python-guide.org/#writing-great-python-code)
      - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839)
