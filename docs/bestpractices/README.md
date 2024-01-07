@@ -17,6 +17,10 @@
      - [PostgreSQL Performance Best Practices](https://www.adservio.fr/post/postgresql-performance-best-practices)
      - [Best Practices for PostgreSQL Database](https://www.e2enetworks.com/blog/best-practices-for-postgresql-database)
      - [Best Practices for Designing PostgreSQL Databases and How AppMaster Can Simplify the Process](https://appmaster.io/blog/best-practices-for-designing-postgresql-databases)
+   * MySQL
+     - [MySQL best practices](https://wpdatatables.com/mysql-best-practices/)
+     - [Best practices in MySQL](https://crayondata.ai/top-10-best-practices-in-mysql/)
+     - [Best Practices for MySQL Performance Tuning](https://www.turing.com/kb/best-practices-for-mysql-performance-tuning)
    * NoSQL
      - [Best Practices in NoSQL Database Design](https://dev.to/ahmed2929/designing-for-document-databases-pio)
      - [nosql-data-modeling-best-practices](https://www.scylladb.com/2023/12/14/nosql-data-modeling-best-practices/)
@@ -27,6 +31,9 @@
 
 ## Backend
    * Restful API
+     - [JSON:API](https://jsonapi.org/)
+     - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+     - [JSON Web Tokens](https://jwt.io/introduction)
      - [API Security](https://roadmap.sh/best-practices/api-security)
    * Java
      - [Java Style Guide](https://github.com/raywenderlich/java-style-guide)
@@ -38,7 +45,7 @@
      - [Best Practices for Multithreading in Java](https://www.developer.com/java/java-multithreading-best-practices/)
    * Ruby
      - [Ruby Style Guide](https://github.com/airbnb/ruby)
-     - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) - @bbatsov
+     - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
      - [Shopify’s Ruby Style Guide ](https://github.com/Shopify/ruby-style-guide)
      - [Airbnb's Ruby Style Guide](https://github.com/airbnb/ruby)
      - [DESIGN PATTERNS in RUBY](https://refactoring.guru/design-patterns/ruby)
