@@ -51,7 +51,9 @@
      - [Python tutorial: Best practices and common mistakes to avoid](https://jaxenter.com/python-tutorial-best-practices-145959.html)
      - [DESIGN PATTERNS in PYTHON](https://refactoring.guru/design-patterns/python)
 
-## Frontend [Frontend Best Practices](https://roadmap.sh/best-practices/frontend-performance)
+## Frontend
+   * Performance
+     - [Performance Best Practices](https://roadmap.sh/best-practices/frontend-performance)
    * HTML
      - [HTML Best Practices](https://github.com/hail2u/html-best-practices)
      - [HTML5 (and Some CSS) Best Practice](https://www.codeproject.com/Tips/666578/HTML-and-Some-CSS-Best-Practice)
