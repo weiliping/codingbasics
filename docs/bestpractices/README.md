@@ -40,7 +40,8 @@
    * Java
      - [Java Style Guide](https://github.com/raywenderlich/java-style-guide)
      - [Java Best Practices Guide](https://howtodoinjava.com/java-best-practices/)
-     - [30 Java Programming Tips and Best Practices for Beginners](https://www.javacodegeeks.com/2015/06/java-programming-tips-best-practices-beginners.html)
+     - [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
+     - [Java Programming Tips and Best Practices](https://www.javacodegeeks.com/2015/06/java-programming-tips-best-practices-beginners.html)
      - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
    * Concurrency and Multithreading
      - [Best Practices for Concurrency in Java](https://www.techrepublic.com/article/java-concurrency-best-practices/)
