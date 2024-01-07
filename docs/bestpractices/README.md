@@ -55,12 +55,12 @@
      - [Airbnb's Ruby Style Guide](https://github.com/airbnb/ruby)
      - [Design Patterns in Ruby](https://refactoring.guru/design-patterns/ruby)
    * Python
+     - [Code Style](https://docs.python-guide.org/writing/style/)
+     - [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
      - [Writing Great Python Code](https://docs.python-guide.org/#writing-great-python-code)
      - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839)
      - [Python Best Practices and Tips by Toptal Developers](https://www.toptal.com/python/tips-and-practices)
-     - [Code Style](https://docs.python-guide.org/writing/style/)
      - [11 Tips And Tricks To Write Better Python Code](https://www.python-engineer.com/posts/11-tips-to-write-better-python-code/)
-     - [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
 
 ## Frontend
    * Performance
