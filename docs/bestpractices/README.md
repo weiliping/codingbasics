@@ -44,7 +44,7 @@
      - [DESIGN PATTERNS in RUBY](https://refactoring.guru/design-patterns/ruby)
    * Python
      - [Python Best Practices – The only guide to become Python Expert](https://data-flair.training/blogs/python-best-practices/)
-     - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839) - @sloria
+     - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839)
      - [Python Best Practices and Tips by Toptal Developers](https://www.toptal.com/python/tips-and-practices)
      - [Code Style](https://docs.python-guide.org/writing/style/)
      - [11 Tips And Tricks To Write Better Python Code](https://www.python-engineer.com/posts/1tips-to-write-better-python-code/)
