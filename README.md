@@ -38,11 +38,16 @@ Codingbasics includes a variety of topics such as data structures, algorithms, s
    * [Programming Books](https://github.com/weiliping/free-programming-books)
    * [Data Science Specialization](https://github.com/weiliping/courses)
    * [Grokking the coding interview](https://www.educative.io/courses/grokking-the-coding-interview)
+   * [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+   * [Wow ebook](https://www.wowebook.org/category/databases-big-data/)
 
    ## Jobs
    * [Interview](/docs/interview/SUMMARY.md)
    * [Remote](https://github.com/alinebastos/remote)
    * [Remote Jobs](https://github.com/remoteintech/remote-jobs)
+
+   ## Tools
+   * [Wireshark](https://www.wireshark.org)
 
    ## Others
    * [Reference](/docs/reference/README.md)

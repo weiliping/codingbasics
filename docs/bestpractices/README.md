@@ -43,6 +43,8 @@
      - [Java Design Patterns](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
      - [Java Programming Tips and Best Practices](https://www.javacodegeeks.com/2015/06/java-programming-tips-best-practices-beginners.html)
      - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+     - [Microservices Best Practices for Java](https://www.redbooks.ibm.com/redbooks/pdfs/sg248357.pdf)
+     - [Code Conventions for the Java TM Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)
    * Concurrency and Multithreading
      - [Best Practices for Concurrency in Java](https://www.techrepublic.com/article/java-concurrency-best-practices/)
      - [Best Practices for Multithreading in Java](https://www.developer.com/java/java-multithreading-best-practices/)
