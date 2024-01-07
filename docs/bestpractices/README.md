@@ -16,14 +16,16 @@
    * Postgresql
      - [PostgreSQL Performance Best Practices](https://www.adservio.fr/post/postgresql-performance-best-practices)
      - [Best Practices for PostgreSQL Database](https://www.e2enetworks.com/blog/best-practices-for-postgresql-database)
-     - [Best Practices for Designing PostgreSQL Databases and How AppMaster Can Simplify the Process](https://appmaster.io/blog/best-practices-for-designing-postgresql-databases)
+     - [Best Practices for Designing PostgreSQL Databases](https://appmaster.io/blog/best-practices-for-designing-postgresql-databases)
    * MySQL
-     - [MySQL best practices](https://wpdatatables.com/mysql-best-practices/)
-     - [Best practices in MySQL](https://crayondata.ai/top-10-best-practices-in-mysql/)
+     - [MySQL Best Practices](https://wpdatatables.com/mysql-best-practices/)
+     - [Best Practices in MySQL](https://crayondata.ai/top-10-best-practices-in-mysql/)
      - [Best Practices for MySQL Performance Tuning](https://www.turing.com/kb/best-practices-for-mysql-performance-tuning)
    * NoSQL
      - [Best Practices in NoSQL Database Design](https://dev.to/ahmed2929/designing-for-document-databases-pio)
-     - [nosql-data-modeling-best-practices](https://www.scylladb.com/2023/12/14/nosql-data-modeling-best-practices/)
+     - [NoSQL Data Modeling Best Practices](https://www.scylladb.com/2023/12/14/nosql-data-modeling-best-practices/)
+     - [Redis Best Practices](https://www.dragonflydb.io/guides/redis-best-practices)
+     - [7 Redis Worst Practices](https://redis.com/blog/7-redis-worst-practices/)
    * Design
      - [Best Practices for Database Design](https://modeldba.com/guides/best-practices-for-database-design/)
      - [Database Design Principles](https://vertabelo.com/blog/database-design-principles/)
@@ -43,12 +45,15 @@
    * Concurrency and Multithreading
      - [Best Practices for Concurrency in Java](https://www.techrepublic.com/article/java-concurrency-best-practices/)
      - [Best Practices for Multithreading in Java](https://www.developer.com/java/java-multithreading-best-practices/)
+   * Application log
+     - [10 Tips for Proper Application Logging](https://www.javacodegeeks.com/2011/01/10-tips-proper-application-logging.html)
+     - [Logging in Java](https://javarevisited.blogspot.com/2011/05/top-10-tips-on-logging-in-java.html)
    * Ruby
      - [Ruby Style Guide](https://github.com/airbnb/ruby)
      - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
      - [Shopify’s Ruby Style Guide ](https://github.com/Shopify/ruby-style-guide)
      - [Airbnb's Ruby Style Guide](https://github.com/airbnb/ruby)
-     - [DESIGN PATTERNS in RUBY](https://refactoring.guru/design-patterns/ruby)
+     - [Design Patterns in Ruby](https://refactoring.guru/design-patterns/ruby)
    * Python
      - [Python Best Practices – The only guide to become Python Expert](https://data-flair.training/blogs/python-best-practices/)
      - [The Best of the Best Practices (BOBP) Guide for Python](https://gist.github.com/sloria/7001839)
