@@ -1,5 +1,5 @@
-# Algorithm
-  - **[Leetcode Problem Solutions](#Solutions)**
+# Algorithm Problems Solutions
+  - **[Leetcode Problems Solutions](#Solutions)**
   - **[Arrays and Sort](#Arrays-and-Sort)**
   - **[Top K](#Top-K)**
   - **[Heap](#Heap)**
@@ -24,7 +24,7 @@
   - **[Others](#Others)**
   - **[Reference](#Reference)**
 
-# Solutions
+# Leetcode Problems Solutions
 | Topics | # | Title | Solution | Difficulty|
 | --- | --- | --- | --- | --- |
 |**Array**| 11 | 盛最多水的容器 [Container with most water](https://leetcode-cn.com/problems/container-with-most-water/)|[Java](./java/com/algorithm/arrays/MaxArea.java)|Medium|

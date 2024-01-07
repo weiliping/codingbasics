@@ -1,4 +1,4 @@
-# Leetcode算法题Java解题集合 [Leet Code Problems](../README.md)
+# 算法题Java解题集合 [Algorithm Problems](../README.md)
 | # | Title | Solution | Difficulty| Topics |
 | --- | --- | --- | --- | --- |
 | 1 | 两数之和 [Two sum](https://leetcode-cn.com/problems/two-sum/)|[Java](./com/algorithm/arrays/TwoSum.java)|Easy|Array|
