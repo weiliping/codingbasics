@@ -36,6 +36,7 @@
      - [JSON:API](https://jsonapi.org/)
      - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
      - [JSON Web Tokens](https://jwt.io/introduction)
+     - [Design Effective and Secure REST APIs](https://blog.bytebytego.com/p/design-effective-and-secure-rest)
      - [API Security](https://roadmap.sh/best-practices/api-security)
    * Java
      - [Java Style Guide](https://github.com/raywenderlich/java-style-guide)
