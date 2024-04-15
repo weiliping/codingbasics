@@ -1,3 +1,5 @@
+package com.algorithm.leetcode;
+
 import java.util.Arrays;
 
 class SolutionI {

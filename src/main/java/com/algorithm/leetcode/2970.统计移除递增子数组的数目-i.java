@@ -1,3 +1,4 @@
+package com.algorithm.leetcode;
 /*
  * @lc app=leetcode.cn id=2970 lang=java
  *
@@ -5,7 +6,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution2970 {
     public int incremovableSubarrayCount(int[] nums) {
         int n = nums.length;
         int i = 0;
