@@ -1,3 +1,4 @@
+package com.algorithm.leetcode;
 /*
  * @lc app=leetcode.cn id=2931 lang=java
  *
