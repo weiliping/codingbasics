@@ -8,7 +8,7 @@ public class Eval {
         // System.out.println((obj instanceof List));
         // System.out.println((obj instanceof Iterator));   
         // System.out.println(obj instanceof ListIterator);
-        eval(null);
+        // eval(null);
     }
 
     public static void eval(String s) {
