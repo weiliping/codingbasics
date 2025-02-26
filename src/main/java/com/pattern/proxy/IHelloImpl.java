@@ -15,9 +15,9 @@ public class IHelloImpl implements IHello {
     @Override
     public String invokeMethod(String name) {
         if ("paul".equals(name)) {
-            return "This method was invoked by Paul.";
+            return "This method was invoked by Paul. invokeMethod()";
         } else {
-            return "You have no permission to invoke this method.";
+            return "You have no permission to invoke this method. invokeMethod()";
         }
     }
 }

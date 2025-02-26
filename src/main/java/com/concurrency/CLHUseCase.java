@@ -1,6 +1,6 @@
 package com.concurrency;
 
-import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class CLHUseCase {
@@ -21,10 +21,14 @@ public class CLHUseCase {
 
     public static void main(String[] args) {
         final CLHUseCase uCase = new CLHUseCase();
-        Executor exec = Executors.newFixedThreadPool(5);
-        for (int i = 1; i <= 5; i++) {
-            exec.execute(uCase::takeout);
+        try {
+            ExecutorService exec = Executors.newFixedThreadPool(5);
+            for (int i = 1; i <= 5; i++) {
+                exec.execute(uCase::takeout);
+            }
+            exec.shutdown();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
-
 }

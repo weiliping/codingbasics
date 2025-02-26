@@ -11,8 +11,9 @@ public class QNode {
         this.id = id;
     }
 
-    public QNode(String name) {
+    public QNode(String name, boolean locked) {
         this.name = name;
+        this.locked = locked;
     }
 
     public int getId() {

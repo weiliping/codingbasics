@@ -11,27 +11,21 @@ public class CLHLock implements Lock {
     private final ThreadLocal<QNode> myNode;
 
     public CLHLock() {
-        this.tail = new AtomicReference<>(new QNode("PREV"));
+        this.tail = new AtomicReference<>(new QNode("PREV", false));
         this.myPrev = new ThreadLocal<QNode>();
         this.myNode = new ThreadLocal<QNode>() {
             protected QNode initialValue() {
-                return new QNode("CURR");
+                return new QNode("CURR", false);
             }
         };
     }
 
     @Override
     public void lock() {
-        System.out.println("Thread Name acquired a lock. thread name: " + Thread.currentThread().getName());
         QNode node = myNode.get();
         node.locked = true;
-        System.out.println("currNode name: " + node.getName() + " thread name: " + Thread.currentThread().getName());
         QNode prevNode = tail.getAndSet(node);
-
         myPrev.set(prevNode);
-        System.out.println("tail list: " + tail.toString());
-        System.out
-                .println("prevNode name: " + prevNode.getName() + " thread name: " + Thread.currentThread().getName());
         while (prevNode.locked) {
         }
         System.out.println("Thread name executed " + Thread.currentThread().getName());
@@ -40,13 +34,9 @@ public class CLHLock implements Lock {
     @Override
     public void unlock() {
         QNode currNode = myNode.get();
-        System.out.println(
-                "unlock currNode name: " + currNode.getName() + " thread name: " + Thread.currentThread().getName());
         currNode.locked = false;
-        QNode prevNode = myPrev.get();
-        System.out.println(
-                "unlock prevNode name: " + prevNode.getName() + " thread name: " + Thread.currentThread().getName());
+        System.out.println("unlock thread name: " + Thread.currentThread().getName() + " prevNode name: "
+                + myPrev.get().getName() + " currNode name: " + currNode.getName());
         myNode.set(myPrev.get());
-        System.out.println("Thread name release lock " + Thread.currentThread().getName());
     }
 }

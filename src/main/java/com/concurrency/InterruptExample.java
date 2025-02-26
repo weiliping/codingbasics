@@ -9,16 +9,17 @@ public class InterruptExample {
                 Thread.sleep(2000);
                 System.out.println("Thread run");
             } catch (InterruptedException e) {
+                System.out.println("Thread interrupted");
                 e.printStackTrace();
             }
         }
     }
 
     public static void main(String[] args) throws InterruptedException {
-//        Thread thread1 = new MyThread1();
-//        thread1.start();
-//        thread1.interrupt();
-//        System.out.println("Main run");
+       Thread thread1 = new MyThread1();
+       thread1.start();
+       thread1.interrupt();
+       System.out.println("Main run");
 
         Thread thread2 = new MyThread2();
         thread2.start();
