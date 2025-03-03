@@ -96,7 +96,41 @@ public class Test {
         // Arrays.fill(elements, 1);
         // Test t = new Test();
         // System.out.println(Arrays.toString(t.assignElements(groups, elements)));       
-        System.out.println(Integer.MAX_VALUE > 1000000000000l);
-        System.out.println(0 + ((2 - 0)>>1));
+        // System.out.println(Integer.MAX_VALUE > 1000000000000l);
+        // System.out.println(0 + ((2 - 0)>>1));
+        // System.out.println(maxSubstringLength("gnyww", 4));
+        System.out.println(maxSubstringLength("uqjxfyrgpnrrjyfxqvtpvyipznvtyuuzrtaxvzitgbqpjxzmixyabgbzfuvuvvaunyuuxbrjuuxtvnbygptxnvaaxumgxqqmtbzxnniiubgzyumzqfixuuuqtrraqjfnymrjygtuzrrrxutrmnazafzqttaanfyzvfnfrmyxzritbuaftygfqtaumuxujaqrpbbbyxmbpjqrtpuggyyityfmmrubaygoehkdowsoeehklwolokdcckddwloeklcodecslcsdhwwlheclldewwksdkksooecceowheddhechshlwokeohwoedkhoodehhewocewheocscwdllsocshkhswodchckdkeeeeoholeleddkwsehokhwlooksohdkwhwhkwscecdddcdkdsskdhsllckedseeehkokdoldoloelccwkedelddsccewldkohelslolhdhoksohkdkhccdhsedsldckoodhcseherbnrttirutqftuxvfmiggxuaazppxjrrxibzzaxzznzvgbjmrpuixmgbfqpzztmjzgqbmfvazyyftmguxxpxyfvvfabbiiyyjanaqvfvpfuyqipgnbuguptpuvvxpnggqir", 1));
+        // System.out.println(maxSubstringLength("cdefdc", 3));
+    }
+
+    public static boolean maxSubstringLength(String s, int k) {
+        if (k == 0) {
+            return true;
+        }
+        int[] cnt = new int[26];
+        Arrays.fill(cnt, -1);
+        char[] chrs = s.toCharArray();
+        int i = 0, n = chrs.length;
+        while (i < n) {
+            int j = i;
+            while (j < n - 1 && chrs[i] == chrs[++j]) {
+                if (j == n - 1) {
+                    j++;
+                    break;
+                }
+            }
+            int ind = chrs[i] - 'a';
+            if (cnt[ind] != -2) {
+                cnt[ind] = cnt[ind] == -1 ? i : -2;
+            }
+            i = i < n - 1 ? j : i + 1;
+        }
+        int c = 0;
+        for (int j = 0; j < 26; j++) {
+            if (cnt[j] > -1) {
+                c++;
+            }
+        }
+        return c >= k;
     }
 }
