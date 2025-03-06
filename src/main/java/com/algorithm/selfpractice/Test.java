@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -99,36 +100,70 @@ public class Test {
         // System.out.println(Integer.MAX_VALUE > 1000000000000l);
         // System.out.println(0 + ((2 - 0)>>1));
         // System.out.println(maxSubstringLength("gnyww", 4));
-        System.out.println(maxSubstringLength("uqjxfyrgpnrrjyfxqvtpvyipznvtyuuzrtaxvzitgbqpjxzmixyabgbzfuvuvvaunyuuxbrjuuxtvnbygptxnvaaxumgxqqmtbzxnniiubgzyumzqfixuuuqtrraqjfnymrjygtuzrrrxutrmnazafzqttaanfyzvfnfrmyxzritbuaftygfqtaumuxujaqrpbbbyxmbpjqrtpuggyyityfmmrubaygoehkdowsoeehklwolokdcckddwloeklcodecslcsdhwwlheclldewwksdkksooecceowheddhechshlwokeohwoedkhoodehhewocewheocscwdllsocshkhswodchckdkeeeeoholeleddkwsehokhwlooksohdkwhwhkwscecdddcdkdsskdhsllckedseeehkokdoldoloelccwkedelddsccewldkohelslolhdhoksohkdkhccdhsedsldckoodhcseherbnrttirutqftuxvfmiggxuaazppxjrrxibzzaxzznzvgbjmrpuixmgbfqpzztmjzgqbmfvazyyftmguxxpxyfvvfabbiiyyjanaqvfvpfuyqipgnbuguptpuvvxpnggqir", 1));
-        // System.out.println(maxSubstringLength("cdefdc", 3));
+        // System.out.println(maxSubstringLength("uqjxfyrgpnrrjyfxqvtpvyipznvtyuuzrtaxvzitgbqpjxzmixyabgbzfuvuvvaunyuuxbrjuuxtvnbygptxnvaaxumgxqqmtbzxnniiubgzyumzqfixuuuqtrraqjfnymrjygtuzrrrxutrmnazafzqttaanfyzvfnfrmyxzritbuaftygfqtaumuxujaqrpbbbyxmbpjqrtpuggyyityfmmrubaygoehkdowsoeehklwolokdcckddwloeklcodecslcsdhwwlheclldewwksdkksooecceowheddhechshlwokeohwoedkhoodehhewocewheocscwdllsocshkhswodchckdkeeeeoholeleddkwsehokhwlooksohdkwhwhkwscecdddcdkdsskdhsllckedseeehkokdoldoloelccwkedelddsccewldkohelslolhdhoksohkdkhccdhsedsldckoodhcseherbnrttirutqftuxvfmiggxuaazppxjrrxibzzaxzznzvgbjmrpuixmgbfqpzztmjzgqbmfvazyyftmguxxpxyfvvfabbiiyyjanaqvfvpfuyqipgnbuguptpuvvxpnggqir", 1));
+        System.out.println(hasSameDigits("3902"));
+    }
+
+    public static boolean hasSameDigits(String s) {
+        List<Integer> nums = new ArrayList<>();
+        for (char c : s.toCharArray()) {
+            nums.add(c - '0');
+        }
+        return helper(nums);
+    }
+
+    public static boolean helper(List<Integer> nums) {
+        if (nums.size() == 2) {
+            return nums.get(0) == nums.get(1);
+        }
+        List<Integer> l = new ArrayList<>();
+        for (int i = 0; i < nums.size() - 1; i++) {
+            l.add((nums.get(i) + nums.get(i + 1)) % 10);
+        }
+        return helper(l);
     }
 
     public static boolean maxSubstringLength(String s, int k) {
         if (k == 0) {
             return true;
         }
-        int[] cnt = new int[26];
-        Arrays.fill(cnt, -1);
-        char[] chrs = s.toCharArray();
-        int i = 0, n = chrs.length;
-        while (i < n) {
-            int j = i;
-            while (j < n - 1 && chrs[i] == chrs[++j]) {
-                if (j == n - 1) {
-                    j++;
-                    break;
-                }
-            }
-            int ind = chrs[i] - 'a';
-            if (cnt[ind] != -2) {
-                cnt[ind] = cnt[ind] == -1 ? i : -2;
-            }
-            i = i < n - 1 ? j : i + 1;
+        int[][] cnts = new int[26][3];
+        for (int i = 0; i < 26; i++) {
+            cnts[i][0] = -1;
+            cnts[i][1] = -1;
         }
+        char[] chrs = s.toCharArray();
+        int n = chrs.length;
+        for (int i = 0; i < n; i++) {
+            int idx = chrs[i] - 'a';
+            if (cnts[idx][0] == -1) {
+                cnts[idx][0] = i;
+            }
+            cnts[idx][1] = i;
+            cnts[idx][2]++;
+        }
+        Arrays.sort(cnts, (a, b) -> a[1] == b[1] ? a[0] - b[0] : a[1] - b[1]);
         int c = 0;
-        for (int j = 0; j < 26; j++) {
-            if (cnt[j] > -1) {
-                c++;
+        LinkedList<int[]> list = new LinkedList<>();
+        for (int i = 0; i < 26; i++) {
+            if (cnts[i][0] == -1 || cnts[i][2] == 0) {
+                continue;
+            }
+            list.add(cnts[i]);
+            while (list.size() > 1 && list.get(list.size() - 2)[1] > list.getLast()[0]) {
+                int[] last = list.pollLast();
+                int[] sec = list.pollLast();
+                sec[0] = Math.min(sec[0], last[0]);
+                sec[1] = Math.max(sec[1], last[1]);
+                sec[2] += last[2];
+                list.add(sec);
+            }
+            int[] l = list.getLast();
+            if (l[1] - l[0] + 1 == l[2]) {
+                int[] a = list.pollLast();
+                if (a[2] != n) {
+                    c++;
+                }    
             }
         }
         return c >= k;
