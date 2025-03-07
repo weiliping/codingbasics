@@ -103,11 +103,28 @@ public class Test {
         // System.out.println(maxSubstringLength("gnyww", 4));
         // System.out.println(maxSubstringLength("uqjxfyrgpnrrjyfxqvtpvyipznvtyuuzrtaxvzitgbqpjxzmixyabgbzfuvuvvaunyuuxbrjuuxtvnbygptxnvaaxumgxqqmtbzxnniiubgzyumzqfixuuuqtrraqjfnymrjygtuzrrrxutrmnazafzqttaanfyzvfnfrmyxzritbuaftygfqtaumuxujaqrpbbbyxmbpjqrtpuggyyityfmmrubaygoehkdowsoeehklwolokdcckddwloeklcodecslcsdhwwlheclldewwksdkksooecceowheddhechshlwokeohwoedkhoodehhewocewheocscwdllsocshkhswodchckdkeeeeoholeleddkwsehokhwlooksohdkwhwhkwscecdddcdkdsskdhsllckedseeehkokdoldoloelccwkedelddsccewldkohelslolhdhoksohkdkhccdhsedsldckoodhcseherbnrttirutqftuxvfmiggxuaazppxjrrxibzzaxzznzvgbjmrpuixmgbfqpzztmjzgqbmfvazyyftmguxxpxyfvvfabbiiyyjanaqvfvpfuyqipgnbuguptpuvvxpnggqir", 1));
         // System.out.println(hasSameDigits("3902"));
-        int[][] grid = new int[][] {{5,3,7}, {8,2,6}};
-        int[] limits = new int[]{2, 2};
-        int k = 3;
-        System.out.println(maxSum(grid, limits, k));
+        // int[][] grid = new int[][] {{5,3,7}, {8,2,6}};
+        // int[] limits = new int[]{2, 2};
+        // int k = 3;
+        int[] original = {1, 2, 3, 4};
+        int[][] bounds = {{1,10}, {2,9}, {3, 8}, {4, 7}};
+        int res = countArrays(original, bounds);
+        System.out.println(res);
     }
+
+    public static int countArrays(int[] original, int[][] bounds) {
+        int n = original.length;
+        int preL = bounds[0][0], preR = bounds[0][1];
+        for (int i = 1; i < n; i++) {
+            int diff = original[i] - original[i - 1];
+            preL = Math.max(bounds[i][0], preL + diff);
+            preR = Math.min(bounds[i][1], preR + diff);
+            if (preL > preR) {
+                return 0;
+            }
+        }
+        return preR - preL + 1;
+    } 
 
     public static long maxSum(int[][] grid, int[] limits, int k) {
         if (k == 0) {
