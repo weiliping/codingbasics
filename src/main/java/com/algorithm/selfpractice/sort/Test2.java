@@ -1,9 +1,17 @@
 package com.algorithm.selfpractice.sort;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Test2 {
      public static void main(String[] args) {
+        String[] labels = new String[] {"TOUR", "Tourist"};
+        System.out.println(Arrays.toString(labels));
+        Arrays.stream(labels).toList();
+        for (String label : labels) {
+            System.out.println(label);
+        }
         // int[] nums = new int[] {2,2,-1,3,-2,2,1,1,1,0,-1};
         // Test2 solution = new Test2();
         // int result = solution.minimumPairRemoval(nums);
@@ -11,15 +19,21 @@ public class Test2 {
         // int[] nums2 = new int[] {5, 2, 3, 1};
         // System.out.println(solution.minimumPairRemoval(nums2));
 
-        HashMap<String, String> capitalCities = new HashMap<String, String>();
-        capitalCities.put("England", "London");
-        capitalCities.put("Germany", "Berlin");
-        capitalCities.put("Norway", "Oslo");
-        capitalCities.put("USA", "Washington DC");
+        // HashMap<String, String> capitalCities = new HashMap<String, String>();
+        // capitalCities.put("England", "London");
+        // capitalCities.put("Germany", "Berlin");
+        // capitalCities.put("Norway", "Oslo");
+        // capitalCities.put("USA", "Washington DC");
         
-        capitalCities.compute("England", (k, v) -> v + "(" + k + ")");
+        // capitalCities.compute("England", (k, v) -> v + "(" + k + ")");
         
-        System.out.println(capitalCities);
+        // System.out.println(capitalCities);
+
+        int[] nums = new int[] {1, 2, 3, 4, 5};
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i & -i);
+        }
     }
     
     public int minimumPairRemoval(int[] nums) {

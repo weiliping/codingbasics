@@ -106,12 +106,60 @@ public class Test {
         // int[][] grid = new int[][] {{5,3,7}, {8,2,6}};
         // int[] limits = new int[]{2, 2};
         // int k = 3;
-        int[] original = {1, 2, 3, 4};
-        int[][] bounds = {{1,10}, {2,9}, {3, 8}, {4, 7}};
-        int res = countArrays(original, bounds);
+        // int[] original = {1, 2, 3, 4};
+        // int[][] bounds = {{1,10}, {2,9}, {3, 8}, {4, 7}};
+        // int res = countArrays(original, bounds);
+        // System.out.println(res);
+        // int[] nums = {1, 4, 2, 3, 1, 4};
+        // int k = 3;
+        // int res = maximumLength(nums, k);
+        // System.out.println(res);
+        int eventTime = 21;
+        int k = 2;
+        int[] startTime = {18, 20};
+        int[] endTime = {20, 21};
+        int res = maxFreeTime(eventTime, k, startTime, endTime);
         System.out.println(res);
     }
 
+    public static int maximumLength(int[] nums, int k) {
+        int[][] cnt = new int[k][k];
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
+            int l = nums[i] % k;
+            for (int j = 0; j < k; j++) {
+                cnt[l][j] = cnt[(j + k - l)%k][j] + 1;
+            }
+        }
+        int mx = 0;
+        for (int i = 0; i < k; i++) {
+            for (int j = 0; j < k; j++) {
+                mx = Math.max(mx, cnt[i][j]);
+            }
+        }
+        return mx;
+    }
+
+    public static int maxFreeTime(int eventTime, int k, int[] startTime, int[] endTime) {
+        int start = 0;
+        int n = startTime.length;
+        int res = 0;
+        int meetTime = 0;
+        for (int i = 0; i < k; i++) {
+            meetTime += endTime[i] - startTime[i];
+        }
+
+        for (int i = k; i < n; i++) {
+            int d = startTime[i] - start;
+            res = Math.max(d - meetTime, res);
+            start = endTime[i - k];
+            meetTime -= start - startTime[i - k];
+            meetTime += endTime[i] - startTime[i];            
+        }
+        int d = eventTime - (n == k ? 0 : endTime[n - k - 1]) ;
+        res = Math.max(d - meetTime, res);
+        return res;    
+    }
     public static int countArrays(int[] original, int[][] bounds) {
         int n = original.length;
         int preL = bounds[0][0], preR = bounds[0][1];
